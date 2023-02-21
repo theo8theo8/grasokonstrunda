@@ -23,10 +23,10 @@ export default function Home() {
       <main className={styles.main} >
         <Topbar />
         <div className={styles.clickMap}>  
-          <div style={{gridArea: 1/2}}>
+          <div style={{gridArea: '1/2'}}>
             <ImageMapper  src={'/karta_2022.png'} onMouseEnter={(area) => setShowName(area.id)} onMouseLeave={() => setShowName('')} onClick={(area) => setShowInfo(area)} map={MAP} />
           </div>
-          <div style={{gridArea: 1/3}}>
+          <div style={{gridArea: '1/3'}}>
             <MapInfo showInfo={showInfo}/>
           </div>
         </div>
