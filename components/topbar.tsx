@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Topbar() {
     return(
         <div className={styles.navbar}>
-            <div style={{width: '100%',height: 'inherit', position: 'relative'}}>
+            <div style={{width: '100%', height: 'inherit', position: 'relative'}}>
                 <Image
                     src="/logo.png"
                     alt="Gräsö Konstrunda 2023"

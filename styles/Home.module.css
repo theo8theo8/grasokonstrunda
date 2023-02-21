@@ -7,8 +7,27 @@
     background-color: rgba(253, 233, 144, 0.562);
 }
 
-.map {
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1vw;
+    padding: 2vw;
+    width: fit-content;
+    height: fit-content;
     z-index: 2;
+    font-family: 'Comfortaa';
+}
+
+.infoBox h1 {
+    margin-bottom: 0.5vw;
+}
+
+.clickMap {
+    display: grid;
+    grid-template-columns: 30vw 20vw 30vw 20vw;
+    align-items: center;
+    justify-items: center;
 }
 
 .indexText {

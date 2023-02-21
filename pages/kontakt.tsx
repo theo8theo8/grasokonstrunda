@@ -20,6 +20,7 @@ export default function Home() {
           <h1>Kontaktinformation</h1>
           <p><b>Kyll Hellberg: </b>0739140431</p>
           <p><b>Ulla Gerbrand: </b>0705755967</p>
+          
         </div>
       </main>
 
