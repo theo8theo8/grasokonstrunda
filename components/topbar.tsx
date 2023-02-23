@@ -4,19 +4,20 @@ import Image from 'next/image'
 export default function Topbar() {
     return(
         <div className={styles.navbar}>
-            <div style={{width: '100%', height: 'inherit', position: 'relative'}}>
+            <a href="/" style={{width:"6vw", height:"5vh"}}>
                 <Image
                     src="/logo.png"
                     alt="Gräsö Konstrunda 2023"
-                    layout='fill'
-                    objectFit='contain'
+                    layout='responsive'
                     quality={100}
+                    width={500}
+                    height={500}
                 />
-            </div>
+            </a>
             <a href="/" >START</a>
             <a href="/karta" >KARTA ÖVER GRÄSÖ</a>
             <a href="/konstnarer" >KONSTNÄRER</a>
-            <a href="/fikapaus" >FIKAPAUS</a>
+            <a href="/fika" >FIKA</a>
             <a href="/kontakt" >KONTAKT</a>
         </div>
     )
