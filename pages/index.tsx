@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main className={styles.main} >
         <Topbar />
-        <div style={{flexDirection:'row', display:'flex'}}>
+        <div style={{flexDirection:'row', display:'flex', alignItems:'center'}}>
           <Image
             src = "/map_black.png"
             alt = "Bild på Gräsö"
@@ -28,7 +28,6 @@ export default function Home() {
             className = {styles.map}
           />
           <div className={styles.indexText}>
-            
             <p>
               <b>Kom till Gräsö konstrunda i sommar!</b><br/> <br/> 
               Vecka 28 smyckar konstnärer sina hem, sjöbodar,<br/> 
