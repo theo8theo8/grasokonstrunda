@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.fika}>
         <div className={styles.box}>
           <div style={{flexDirection:'row', display:'flex'}}>
-            <div>
+            <div className={styles.boxlogo}>
               <Image
                 src="/symbol_fika.jpg"
                 alt="Fika-symbol"
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         <div className={styles.box}>
           <div style={{flexDirection:'row', display:'flex'}}>
-            <div> 
+            <div className={styles.boxlogo}> 
               <Image
                 src="/symbol_musik.jpg"
                 alt="Musik-symbol"

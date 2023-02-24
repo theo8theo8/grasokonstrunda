@@ -11,11 +11,11 @@ export default function Bottombar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                    <div style={{width: '12vw',height: '70%', position: 'relative'}}>
+                    <div className={styles.mainSponsLogo}>
                         <Image
                             src="/logos/nbv_logo.png"
                             alt="Nykterhetsrörelsens bildningsverksamhet"
-                            className={styles.vercelLogo}
+                            className={styles.sponsLogo}
                             priority
                             fill
                             sizes="100vw"
@@ -37,7 +37,7 @@ export default function Bottombar() {
                     <Image
                         src="/logos/ICAny.png"
                         alt="ICA Nära Sjöboden"
-                        className={styles.vercelLogo}
+                        className={styles.sponsLogo}
                         width={100}
                         height={100}
                         priority
@@ -54,7 +54,7 @@ export default function Bottombar() {
                     <Image
                         src="/logos/OregrundsBygg.png"
                         alt="Byggvaruhuset Öregrund"
-                        className={styles.vercelLogo}
+                        className={styles.sponsLogo}
                         width={100}
                         height={100}
                         priority
@@ -67,7 +67,7 @@ export default function Bottombar() {
                         <Image
                             src="/logos/CEN_Carpenter_1.jpg"
                             alt="CEN Carpenter"
-                            className={styles.vercelLogo}
+                            className={styles.sponsLogo}
                             width={100}
                             height={100}
                             priority
@@ -84,7 +84,7 @@ export default function Bottombar() {
                     <Image
                         src="/logos/Tidtryck.png"
                         alt="Tidtryck"
-                        className={styles.vercelLogo}
+                        className={styles.sponsLogo}
                         width={100}
                         height={100}
                         priority

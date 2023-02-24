@@ -1,10 +1,11 @@
 import styles from '@/styles/Home.module.css'
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Topbar() {
     return (
         <div className={styles.navbar}>
-            <a href="/" style={{width:"6vw", height:"5vh"}}>
+            <Link href="/" className={styles.navbar_logo}>
                 <Image
                     src="/logo.png"
                     alt="Gräsö Konstrunda 2023"
@@ -16,12 +17,12 @@ export default function Topbar() {
                         width: "100%",
                         height: "auto"
                     }} />
-            </a>
-            <a href="/" >START</a>
-            <a href="/karta" >KARTA ÖVER GRÄSÖ</a>
-            <a href="/konstnarer" >KONSTNÄRER</a>
-            <a href="/fika" >FIKA</a>
-            <a href="/kontakt" >KONTAKT</a>
+            </Link>
+            <Link href="/" >START</Link>
+            <Link href="/karta" >KARTA ÖVER GRÄSÖ</Link>
+            <Link href="/konstnarer" >KONSTNÄRER</Link>
+            <Link href="/fika" >FIKA</Link>
+            <Link href="/kontakt" >KONTAKT</Link>
         </div>
     );
 }
