@@ -8,7 +8,6 @@
 }
 
 .placeBox {
-    font-family: 'Comfortaa';
     font-size: small;
     height: fit-content;
     width: 18vw;
@@ -24,7 +23,6 @@
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 1vw;
     padding: 2%;
-    font-family: 'Comfortaa';
 }
 
 .contact h1 {
@@ -60,7 +58,6 @@
     justify-content: flex-start;
     width: 40vw;
     height: 100vh;
-    font-family: 'Comfortaa';
 }
 
 .box {
@@ -102,7 +99,6 @@
     width: fit-content;
     height: fit-content;
     z-index: 2;
-    font-family: 'Comfortaa';
 }
 
 .infoBox h1 {
@@ -127,7 +123,6 @@
     flex-direction: column;
     justify-content: center;
     font-size: medium;
-    font-family: 'Comfortaa';
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 1vw;
     padding: 2vw;
@@ -139,7 +134,6 @@
     z-index: 2;
     border-bottom: 0.1vw solid rgb(148, 148, 148);
     font-size: 1vw;
-    font-family: 'Comfortaa';
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -148,7 +142,6 @@
 .bottbar {
     z-index: 2;
     font-size: 1vw;
-    font-family: 'Comfortaa';
     align-self: flex-end;
     justify-self: center;
     display: flex;
@@ -161,9 +154,6 @@
     align-items: center;
     margin: 1.2vw;
 }
-
-
-/* Should be same as above */
 
 .spons_not_link {
     display: flex;
