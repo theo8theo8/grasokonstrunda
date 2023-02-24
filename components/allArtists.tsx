@@ -68,7 +68,7 @@ export default function AllArtists() {
                 <div className={styles.marg}>
                     <h2>9. Oxsten</h2>
                 </div>
-                <p><b>Marina Laurent</b><br/><em>Fotografier "Natur i närbild"</em></p><br/>
+                <p><b>Marina Laurent</b><br/><em>Fotografier &quot;Natur i närbild&quot;</em></p><br/>
             </div>
             <div className={styles.placeBox}>
                 <div className={styles.marg}>
@@ -113,7 +113,7 @@ export default function AllArtists() {
                 <p><b>Thomas Olofsson</b><br/><em>Knivar</em></p><br/>
                 <p><b>Monica Ohlsson</b><br/><em>Personliga fotografier från Gräsö</em></p><br/>
                 <p><b>Paulina Partanen</b><br/><em>Olja, akvarell, akryl</em></p><br/>
-                <p><b>Peter Backemar</b><br/><em>Ställer ut sin bok "Livet på en ö i Roslagen under första delen av 1900-talet"</em></p><br/>
+                <p><b>Peter Backemar</b><br/><em>Ställer ut sin bok &quot;Livet på en ö i Roslagen under första delen av 1900-talet&quot;</em></p><br/>
                 <p><b>Lena Dalnert</b><br/><em>Akvarell</em></p><br/>
             </div>
             <div className={styles.placeBox}>
@@ -127,7 +127,7 @@ export default function AllArtists() {
                 <div className={styles.marg}>
                     <h2>17. Västerhamnen Norrboda</h2>
                 </div>
-                <p><b>Elin Lindqvist</b><br/><em>Festfint "mina ängder gröna" dukningskonst och blomsterinstallationer</em></p><br/>
+                <p><b>Elin Lindqvist</b><br/><em>Festfint &quot;mina ängder gröna&quot; dukningskonst och blomsterinstallationer</em></p><br/>
             </div>
             <div className={styles.placeBox}>
                 <div className={styles.marg}>
@@ -142,7 +142,7 @@ export default function AllArtists() {
                 <p><b>Dennis Persson</b><br/><em>Skulptur i återbruk, fotomontage, målningar</em></p><br/>
                 <p><b>Ulla Gerbrand</b><br/><em>Olja, akryl, grafik</em></p><br/>
                 <p><b>Kyll Hellberg</b><br/><em>Waldorfdockor och änglar</em></p><br/>
-                <p><b>Eleonore Holmgren Uppsalaförfattare</b><br/><em>På tisdag pratar hon om sin bok "Sista sommaren" som är nominerad till årets bok</em></p><br/>
+                <p><b>Eleonore Holmgren Uppsalaförfattare</b><br/><em>På tisdag pratar hon om sin bok &quot;Sista sommaren&quot; som är nominerad till årets bok</em></p><br/>
             </div>
             <div className={styles.placeBox}>
                 <div className={styles.marg}>

@@ -9,8 +9,8 @@ export default function Home() {
         <h1>Kontaktinformation</h1>
         <p><b>Kyll Hellberg: </b>073-914 04 31</p>
         <p><b>Ulla Gerbrand: </b>070-575 59 67</p>
-        <a href="mailto:info@grasokonstrunda.se" target="_blank">info@grasokonstrunda.se</a>
-        <a href="https://www.facebook.com/groups/663788286968932/?fref=ts" target="_blank">
+        <a href="mailto:info@grasokonstrunda.se" target="_blank" rel="noreferrer">info@grasokonstrunda.se</a>
+        <a href="https://www.facebook.com/groups/663788286968932/?fref=ts" target="_blank" rel="noreferrer">
           <Image
             src = "/facebook-logo.png"
             alt = "Facebook"
