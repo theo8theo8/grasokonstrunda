@@ -1,8 +1,8 @@
 import styles from '@/styles/Home.module.css'
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Bottombar() {
-    return(
+    return (
         <div className={styles.bottbar}>
             <div style={{marginRight: '10vw'}}>               
                 <p><b>Medarrangör:</b></p>
@@ -16,10 +16,12 @@ export default function Bottombar() {
                             src="/logos/nbv_logo.png"
                             alt="Nykterhetsrörelsens bildningsverksamhet"
                             className={styles.vercelLogo}
-                            layout='fill'
-                            objectFit='contain'
                             priority
-                        />
+                            fill
+                            sizes="100vw"
+                            style={{
+                                objectFit: "contain"
+                            }} />
                     </div>
                 </a>
             </div> 
@@ -36,11 +38,13 @@ export default function Bottombar() {
                         src="/logos/ICAny.png"
                         alt="ICA Nära Sjöboden"
                         className={styles.vercelLogo}
-                        layout="intrinsic"
                         width={100}
                         height={100}
                         priority
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                     </a>
                     <a
                     href="https://www.byggvaruhuset.nu/"
@@ -51,22 +55,26 @@ export default function Bottombar() {
                         src="/logos/OregrundsBygg.png"
                         alt="Byggvaruhuset Öregrund"
                         className={styles.vercelLogo}
-                        layout="intrinsic"
                         width={100}
                         height={100}
                         priority
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                     </a>
                     <div className={styles.spons_not_link}>
                         <Image
-                        src="/logos/CEN_Carpenter_1.jpg"
-                        alt="CEN Carpenter"
-                        className={styles.vercelLogo}
-                        layout="intrinsic"
-                        width={100}
-                        height={100}
-                        priority
-                        />
+                            src="/logos/CEN_Carpenter_1.jpg"
+                            alt="CEN Carpenter"
+                            className={styles.vercelLogo}
+                            width={100}
+                            height={100}
+                            priority
+                            style={{
+                                maxWidth: "100%",
+                                height: "auto"
+                            }} />
                     </div>
                     <a
                     href="https://tidtryck.com/"
@@ -77,16 +85,18 @@ export default function Bottombar() {
                         src="/logos/Tidtryck.png"
                         alt="Tidtryck"
                         className={styles.vercelLogo}
-                        layout="intrinsic"
                         width={100}
                         height={100}
                         priority
-                    />
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto"
+                        }} />
                     </a>
                     
                 </div>              
                 <p>Sidan uppdaterades 2023-02-20</p>
             </div>  
         </div>
-    )
+    );
 }
