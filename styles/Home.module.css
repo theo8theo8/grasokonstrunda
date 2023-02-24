@@ -1,46 +1,7 @@
-.main {
-    display: grid;
-    align-items: flex-start;
-    justify-items: center;
-    padding: 0.5vw;
-    min-height: 100vh;
-    background-color: rgba(255, 236, 151, 0.712);
-}
-
-.placeBox {
-    font-size: small;
-    height: fit-content;
-    width: 18vw;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 1vw;
-    padding: 1vw;
-}
-
-.marg {
-    margin-bottom: 1vh;
-}
-
-.marg h2 {
-    margin-bottom: 0.8vh;
-}
-
 .logos {
     width: auto;
     height: 3vh;
     position: relative;
-}
-
-.konstnarer {
-    margin-top: 3vh;
-    width: 80vw;
-    height: 132vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2vw;
-    background-color: rgba(255, 242, 130, 0.8);
-    border-radius: 1vw;
-    padding: 1vw;
 }
 
 .infoBox {
@@ -58,29 +19,11 @@
     margin-bottom: 0.5vw;
 }
 
-.link {
-    color: blue;
-    text-decoration: underline;
-}
-
 .clickMap {
     display: grid;
     grid-template-columns: 30vw 20vw 30vw 20vw;
     align-items: center;
     justify-items: center;
-}
-
-.indexText {
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: medium;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 1vw;
-    padding: 2vw;
-    width: fit-content;
-    height: fit-content;
 }
 
 
@@ -165,14 +108,108 @@
 
 /* General */
 
+.main {
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    padding: 0.5vw;
+    min-height: 100vh;
+    background-color: rgba(255, 236, 151, 0.712);
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
 
 /* Index page */
+
+.index {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.map {
+    max-width: 100%;
+    height: auto;
+}
+
+.indexText {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1vw;
+    padding: 2vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+    .indexText {}
+}
 
 
 /* Map page */
 
 
 /* Artist page */
+
+.konstnarer {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 132vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2vw;
+    background-color: rgba(255, 242, 130, 0.8);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.placeBox {
+    font-size: small;
+    height: fit-content;
+    width: 18vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.marg {
+    margin-bottom: 1vh;
+}
+
+.marg h2 {
+    margin-bottom: 0.8vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .konstnarer {
+        width: 90vw;
+        flex-direction: row;
+        gap: 5vw;
+        padding: 5vw;
+        background-color: transparent;
+        margin-top: 0;
+    }
+    .placeBox {
+        width: 80vw;
+        padding: 5vw;
+        border-radius: 5vw;
+    }
+    .marg {
+        margin-bottom: 1vh;
+    }
+    .marg h2 {
+        margin-bottom: 1vh;
+    }
+}
 
 
 /* Fika page */

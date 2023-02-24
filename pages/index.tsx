@@ -6,17 +6,14 @@ import Layout from '@/components/layout'
 export default function Home() {
   return <>
     <Layout title="Gräsö Konstrunda 2023">
-      <div style={{flexDirection:'row', display:'flex', alignItems:'center'}}>
+      <div className = {styles.index}>
         <Image
           src = "/map_black.png"
           alt = "Bild på Gräsö"
           width = {320}
           height = {320}
           className = {styles.map}
-          style={{
-            maxWidth: "100%",
-            height: "auto"
-          }} />
+        />
         <div className={styles.indexText}>
           <p>
             <b>Kom till Gräsö konstrunda i sommar!</b><br/> <br/> 
