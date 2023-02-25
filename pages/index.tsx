@@ -16,7 +16,7 @@ export default function Home() {
         />
         <div className={styles.indexText}>
           <p>
-            <b>Kom till Gräsö konstrunda i sommar!</b><br/> <br/> 
+            <h2>Kom till Gräsö konstrunda i sommar!</h2><br/> <br/> 
             Vecka 28 smyckar konstnärer sina hem, sjöbodar,<br/> 
             lador och bygdegårdar med sin konst!<br/> 
             Konstutställningarna är utspridda över hela ön<br/> 

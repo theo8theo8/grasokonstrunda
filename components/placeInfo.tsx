@@ -184,16 +184,16 @@ export default function PlaceInfo({place}) {
             return (
                 <div className={styles.infoBox}>
                     <h1>18. Lökäng</h1>
-                    <p><em>Musik måndag, onsdag, fredag och lördag 12.00</em></p><br/>
+                    <p><em>Musik måndag, onsdag,<br/> fredag och lördag 12.00</em></p><br/>
                     <p><b>Margit Martens</b><br/><em>Keramik</em></p><br/>
                     <p><b>Hans-åke Lerin</b><br/><em>Fotografier, fotobok</em></p><br/>
-                    <p><b>Anna Karlsson</b><br/><em>Textilkonst-botaniska tryck på tyg och papper samt broderi</em></p><br/>
+                    <p><b>Anna Karlsson</b><br/><em>Textilkonst-botaniska<br/> tryck på tyg och papper samt broderi</em></p><br/>
                     <p><b>Sanne Vils</b><br/><em>Waldorfdockor och silver</em></p><br/>
                     <p><b>Jon Gerbrand</b><br/><em>Lampor</em></p><br/>
                     <p><b>Dennis Persson</b><br/><em>Skulptur i återbruk, fotomontage, målningar</em></p><br/>
                     <p><b>Ulla Gerbrand</b><br/><em>Olja, akryl, grafik</em></p><br/>
                     <p><b>Kyll Hellberg</b><br/><em>Waldorfdockor och änglar</em></p><br/>
-                    <p><b>Eleonore Holmgren Uppsalaförfattare</b><br/><em>På tisdag pratar hon om sin bok &quot;Sista sommaren&quot; som är nominerad till årets bok</em></p><br/>
+                    <p><b>Eleonore Holmgren<br/>Uppsalaförfattare</b><br/><em>På tisdag pratar hon om sin bok<br/> &quot;Sista sommaren&quot; som är<br/> nominerad till årets bok</em></p><br/>
                     <a className={styles.link} href="https://goo.gl/maps/DJtN7XHNAKJxs4W58" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
                 </div>
             )   

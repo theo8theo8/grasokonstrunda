@@ -16,7 +16,6 @@ export default function Bottombar() {
                             src="/logos/nbv_logo.png"
                             alt="Nykterhetsrörelsens bildningsverksamhet"
                             className={styles.sponsLogo}
-                            priority
                             fill
                             sizes="100vw"
                             style={{
@@ -40,7 +39,6 @@ export default function Bottombar() {
                         className={styles.sponsLogo}
                         width={100}
                         height={100}
-                        priority
                         style={{
                             maxWidth: "100%",
                             height: "auto"
