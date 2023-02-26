@@ -18,7 +18,8 @@ export default function Home() {
             height = {64}
             style={{
               maxWidth: "100%",
-              height: "auto"
+              height: "auto",
+              width: "auto"
             }} />
         </a>
       </div>

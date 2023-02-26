@@ -13,10 +13,11 @@ export default function Home() {
           width = {320}
           height = {320}
           className = {styles.map}
+          priority
         />
         <div className={styles.indexText}>
+          <h2>Kom till Gräsö konstrunda i sommar!<br/><br/> </h2>
           <p>
-            <h2>Kom till Gräsö konstrunda i sommar!</h2><br/> <br/> 
             Vecka 28 smyckar konstnärer sina hem, sjöbodar,<br/> 
             lador och bygdegårdar med sin konst!<br/> 
             Konstutställningarna är utspridda över hela ön<br/> 
