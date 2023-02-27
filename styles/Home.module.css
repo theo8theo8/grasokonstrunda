@@ -85,7 +85,6 @@
     justify-items: center;
     padding: 0.5vw;
     min-height: 100vh;
-    background-color: rgba(255, 236, 151, 0.712);
 }
 
 .link {
@@ -225,7 +224,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2vw;
-    background-color: rgba(255, 242, 130, 0.8);
+    /* background-color: rgba(255, 242, 130, 0.8); */
+    background-color: white;
     border-radius: 1vw;
     padding: 1vw;
 }
@@ -234,8 +234,9 @@
     font-size: small;
     height: fit-content;
     width: 18vw;
-    background-color: rgba(255, 255, 255, 0.8);
+    border-color: black;
     border-radius: 1vw;
+    border-style: solid;
     padding: 1vw;
 }
 
@@ -278,6 +279,7 @@
         width: 80vw;
         padding: 5vw;
         border-radius: 5vw;
+        background-color: white;
     }
     .marg {
         margin-bottom: 1vh;
