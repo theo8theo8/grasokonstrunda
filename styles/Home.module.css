@@ -219,7 +219,7 @@
 
 .konstnarer {
     width: 80vw;
-    height: 132vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -265,6 +265,18 @@
 
 .whereText {
     margin-left: 1vw;
+}
+
+@media only screen and (max-width: 1536px) {
+    .konstnarer {
+        height: 170vh
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .konstnarer {
+        height: 180vh
+    }
 }
 
 @media only screen and (max-width: 768px) {
