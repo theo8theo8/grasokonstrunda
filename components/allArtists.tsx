@@ -6,7 +6,7 @@ export default function AllArtists() {
             <div className={styles.placeBox}>
                 <div className={styles.marg}>
                     <h2>1. Rävsten</h2>
-                    <p><em>Här finns lunch och fika. Passbåt från äspskärs brygga måste förbokas digitalt på www.rävsten.se</em></p><br/>
+                    <p><em>Här finns lunch och fika. Passbåt från äspskärs brygga måste förbokas digitalt <a className={styles.link} href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090" target="_blank" rel="noreferrer">här!</a></em></p><br/>
                 </div>
                 <p><b>Louise Westerberg</b><br/><em>Fårskinn, almanackor, skärgårdsbilder</em></p><br/>
                 <p><b>Jörgen Carlsson</b><br/><em>Akvarell, olja</em></p><br/>

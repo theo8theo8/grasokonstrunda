@@ -15,7 +15,7 @@ export default function Home() {
               quality={100}
               width={500}
               height={500}
-              sizes="100vw"
+              sizes="(max-width: 768px) 14vw, 5vw"
               style={{
                 width: "100%",
                 height: "auto"

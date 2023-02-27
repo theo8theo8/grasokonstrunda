@@ -12,7 +12,7 @@ export default function Topbar() {
                     quality={100}
                     width={500}
                     height={500}
-                    sizes="100vw"
+                    sizes="(max-width: 768px) 15vw, 6vw"
                     style={{
                         width: "100%",
                         height: "auto"
