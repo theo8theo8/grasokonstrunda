@@ -219,7 +219,6 @@
 /* Artist page */
 
 .konstnarer {
-    margin-top: 3vh;
     width: 80vw;
     height: 132vh;
     display: flex;
@@ -248,6 +247,25 @@
     margin-bottom: 0.8vh;
 }
 
+.whereGo {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+
+.whereSkylt {
+    width: 5vw;
+}
+
+.whereText {
+    margin-left: 1vw;
+}
+
 @media only screen and (max-width: 768px) {
     .konstnarer {
         width: 90vw;
@@ -255,7 +273,6 @@
         gap: 5vw;
         padding: 5vw;
         background-color: transparent;
-        margin-top: 0;
     }
     .placeBox {
         width: 80vw;
@@ -267,6 +284,16 @@
     }
     .marg h2 {
         margin-bottom: 1vh;
+    }
+    .whereGo {
+        border-radius: 5vw;
+        padding: 4vw;
+    }
+    .whereSkylt {
+        width: 14vw;
+    }
+    .whereText {
+        margin-left: 3vw;
     }
 }
 
@@ -300,7 +327,7 @@
 }
 
 .boxheader {
-    flex: 8;
+    flex: 10;
     margin-bottom: 1vw;
 }
 
