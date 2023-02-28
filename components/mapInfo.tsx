@@ -2,10 +2,13 @@ import styles from '@/styles/Home.module.css'
 import PlaceInfo from './placeInfo'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { CustomArea } from 'react-img-mapper'
+interface Props {
+    showInfo: CustomArea|undefined
+  }
 
-
-export default function MapInfo({showInfo}) {
-    if (showInfo == undefined) {
+export default function MapInfo({showInfo}: Props) {
+    if (showInfo === undefined) {
         return (
                 <div className={styles.infoBox}>
                     <p>
@@ -22,8 +25,10 @@ export default function MapInfo({showInfo}) {
                 </div>
                 )
     }
-    return (
-        <PlaceInfo place={showInfo.id}/>
-    )
+    else {
+        return (
+            <PlaceInfo place={showInfo.id}/>
+        )
+    }
   }
   

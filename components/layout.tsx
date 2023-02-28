@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Topbar from './topbar';
+import { ReactNode } from 'react';
+interface Props {
+  children?: ReactNode
+  title?: string
+}
 
-export default function Layout({children, title="default title"}) {
+export default function Layout({children, title="default title"}: Props) {
     return (
       <>
         <Head>

@@ -2,8 +2,15 @@ import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 
-export default function PlaceInfo({place}) {
-    const id = parseInt(place.split('.')[0])
+interface Props {
+    place: string | undefined
+    }
+
+export default function PlaceInfo({place}:Props) {
+    let id = 0;
+    if (place != undefined) {
+        id = parseInt(place.split('.')[0])
+    }
     switch (id) {
         case 1: {
             return (
