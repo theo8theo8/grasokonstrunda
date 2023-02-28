@@ -25,7 +25,7 @@ export default function Home() {
             och natur som finns på Gräsö.<br/> <br/> 
             <b>
               Varmt välkommen till Gräsö konstrunda!<br/><br/> 
-              Kartan är nu uppdaterad med årets platser och konstnärer!
+              Kartan är ännu inte uppdaterad med 2023 års platser och konstnärer!
             </b>
           </p>
           <h1>
@@ -36,8 +36,6 @@ export default function Home() {
           <br/> 
             Kl. 12-17 alla dagar!
           </h2>
-          {/* <Image
-          /> */}
         </div>
       </div>
       <Bottombar />

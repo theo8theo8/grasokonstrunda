@@ -93,7 +93,7 @@ export default function Bottombar() {
                     </a>
                     
                 </div>              
-                <p>Sidan uppdaterades 2023-02-20</p>
+                <p>Sidan uppdaterades 2023-02-28</p>
             </div>  
         </div>
     );
