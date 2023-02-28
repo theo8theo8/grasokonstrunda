@@ -10,7 +10,7 @@ export default function Home() {
         <div className={styles.whereGo}>
           <div className={styles.whereSkylt}>
             <Image
-              src="/skylt.jpg"
+              src="/skylt.png"
               alt="Skylt till utställningsplats"
               quality={100}
               width={500}
@@ -20,6 +20,7 @@ export default function Home() {
                 width: "100%",
                 height: "auto"
               }}
+              priority
             />
           </div>
           <p className={styles.whereText}>Konstrundans <br/>skyltar visar dig <br/>vägen till alla<br/> konstutställningar!</p>
