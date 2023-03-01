@@ -4,6 +4,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import localFont from '@next/font/local'
 config.autoAddCss = false
+import { Analytics } from '@vercel/analytics/react';
 
 const font = localFont({ src: './Comfortaa-VariableFont_wght.woff2' })
 
@@ -11,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={font.className}>
       <Component {...pageProps} />
+      <Analytics/>
     </main>
   )
-
 }
