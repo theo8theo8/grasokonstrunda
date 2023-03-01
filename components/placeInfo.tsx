@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/style.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 
@@ -149,7 +149,7 @@ export default function PlaceInfo({place}:Props) {
                 <div className={styles.infoBox}>
                     <h1>8. Nötsveden</h1>
                     <p><b>Sören Lindström</b><br/><em>Trähantverk svepteknik, svarvat, luffarslöjd</em></p><br/>
-                    <a className={styles.link} href="https://goo.gl/maps/vtC26YgmmeoC1d9388" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
+                    <a className={styles.link} href="https://goo.gl/maps/vtC26YgmmeoC1d938" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
                     <div className={styles.download}>
                         <a href="/Flyer_A4_2022.pdf" download>
                             <FontAwesomeIcon icon={faFileArrowDown}/>
@@ -166,7 +166,7 @@ export default function PlaceInfo({place}:Props) {
                 <div className={styles.infoBox}>
                     <h1>9. Oxsten</h1>
                     <p><b>Marina Laurent</b><br/><em>Fotografier &quot;Natur i närbild&quot;</em></p><br/>
-                    <a className={styles.link} href="https://goo.gl/maps/vtC26YgmmeoC1d938" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
+                    <a className={styles.link} href="https://goo.gl/maps/YGy9stvhsSR8MsRH7" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
                     <div className={styles.download}>
                         <a href="/Flyer_A4_2022.pdf" download>
                             <FontAwesomeIcon icon={faFileArrowDown}/>
@@ -278,7 +278,7 @@ export default function PlaceInfo({place}:Props) {
                     <p><b>Paulina Partanen</b><br/><em>Olja, akvarell, akryl</em></p><br/>
                     <p><b>Peter Backemar</b><br/><em>Ställer ut sin bok &quot;Livet på en ö i Roslagen under första delen av 1900-talet&quot;</em></p><br/>
                     <p><b>Lena Dalnert</b><br/><em>Akvarell</em></p><br/>
-                    <a className={styles.link} href="https://goo.gl/maps/LiEVQ5TTFabDpBBMA" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
+                    <a className={styles.link} href="https://goo.gl/maps/NFZZjPXa5Ne9Kh7dA" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
                     <div className={styles.download}>
                         <a href="/Flyer_A4_2022.pdf" download>
                             <FontAwesomeIcon icon={faFileArrowDown}/>

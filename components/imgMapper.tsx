@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/style.module.css'
 import ImageMapper, { CustomArea } from 'react-img-mapper';
 import {MAP} from '@/components/coords'
 import { useState } from 'react';

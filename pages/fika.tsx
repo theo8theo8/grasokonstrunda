@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/style.module.css'
 import Image from "next/image";
 import Layout from '@/components/layout'
 
