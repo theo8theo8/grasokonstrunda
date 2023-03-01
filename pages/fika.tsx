@@ -10,7 +10,7 @@ export default function Home() {
           <div style={{flexDirection:'row', display:'flex'}}>
             <div className={styles.boxlogo}>
               <Image
-                src="/symbol_fika.webp"
+                src="/cutlery.svg"
                 alt="Fika-symbol"
                 quality={100}
                 width={500}
@@ -33,9 +33,24 @@ export default function Home() {
           <p>Konstrundans fikasymbol visar dig vägen!</p>
         </div>
         <div className={styles.box}>
-          <div className={styles.boxheader}>
-            <h3>Enklare fika</h3>
-            <p><em>Fem utställningsplatser serverar enklare fika.</em></p>
+          <div style={{flexDirection:'row', display:'flex'}}>
+            <div className={styles.boxlogo}>
+              <Image
+                src="/symbol_fika.webp"
+                alt="Fika-symbol"
+                quality={100}
+                width={500}
+                height={500}
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto"
+                }} />
+            </div>
+            <div className={styles.boxheader}>
+              <h3>Enklare fika</h3>
+              <p><em>Fem utställningsplatser serverar enklare fika.</em></p>
+            </div>
           </div>
           <p>Bjurön <b>(3)</b>, Högklyke <b>(4)</b>, Muskaregrund <b>(5)</b>, Församlingshemmet <b>(6)</b> samt på plats nummer <b>(20)</b> Hamnen Källskärsudden.</p>
         </div>
@@ -43,7 +58,7 @@ export default function Home() {
           <div style={{flexDirection:'row', display:'flex'}}>
             <div className={styles.boxlogo}> 
               <Image
-                src="/symbol_musik.webp"
+                src="/Guitar.svg"
                 alt="Musik-symbol"
                 quality={100}
                 width={500}
