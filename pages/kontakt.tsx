@@ -12,7 +12,7 @@ export default function Home() {
         <a href="mailto:info@grasokonstrunda.se" target="_blank" rel="noreferrer">info@grasokonstrunda.se</a>
         <a href="https://www.facebook.com/groups/663788286968932/?fref=ts" target="_blank" rel="noreferrer">
           <Image
-            src = "/facebook-logo.png"
+            src = "/facebook-logo.webp"
             alt = "Facebook"
             width = {128}
             height = {64}

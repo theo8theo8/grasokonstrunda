@@ -10,7 +10,7 @@ export default function Home() {
         <div className={styles.whereGo}>
           <div className={styles.whereSkylt}>
             <Image
-              src="/skylt.png"
+              src="/skylt.webp"
               alt="Skylt till utställningsplats"
               quality={100}
               width={500}

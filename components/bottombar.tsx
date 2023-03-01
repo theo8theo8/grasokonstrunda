@@ -13,7 +13,7 @@ export default function Bottombar() {
                 >
                     <div className={styles.mainSponsLogo}>
                         <Image
-                            src="/logos/nbv_logo.png"
+                            src="/logos/nbv_logo.webp"
                             alt="Nykterhetsrörelsens bildningsverksamhet"
                             className={styles.sponsLogo}
                             fill
@@ -34,7 +34,7 @@ export default function Bottombar() {
                     rel="noopener noreferrer"
                     >
                     <Image
-                        src="/logos/ICAny.png"
+                        src="/logos/ICAny.webp"
                         alt="ICA Nära Sjöboden"
                         className={styles.sponsLogo}
                         width={100}
@@ -50,7 +50,7 @@ export default function Bottombar() {
                     rel="noopener noreferrer"
                     >
                     <Image
-                        src="/logos/OregrundsBygg.png"
+                        src="/logos/OregrundsBygg.webp"
                         alt="Byggvaruhuset Öregrund"
                         className={styles.sponsLogo}
                         width={100}
@@ -63,7 +63,7 @@ export default function Bottombar() {
                     </a>
                     <div className={styles.spons_not_link}>
                         <Image
-                            src="/logos/CEN_Carpenter_1.jpg"
+                            src="/logos/CEN_Carpenter_1.webp"
                             alt="CEN Carpenter"
                             className={styles.sponsLogo}
                             width={100}
@@ -80,7 +80,7 @@ export default function Bottombar() {
                     rel="noopener noreferrer"
                     >
                     <Image
-                        src="/logos/Tidtryck.png"
+                        src="/logos/Tidtryck.webp"
                         alt="Tidtryck"
                         className={styles.sponsLogo}
                         width={100}

@@ -18,7 +18,7 @@ export default function ImgMapper() {
                     responsive={true}
                     parentWidth={width}
                     imgWidth={451}
-                    src={'/karta_2022.png'}
+                    src={'/karta_2022.webp'}
                     onMouseEnter={(area) => setShowName(area.id)}
                     onMouseLeave={() => setShowName('')}
                     onClick={(area) => setShowInfo(area)}

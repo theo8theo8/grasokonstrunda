@@ -10,7 +10,7 @@ export default function Home() {
           <div style={{flexDirection:'row', display:'flex'}}>
             <div className={styles.boxlogo}>
               <Image
-                src="/symbol_fika.jpg"
+                src="/symbol_fika.webp"
                 alt="Fika-symbol"
                 quality={100}
                 width={500}
@@ -43,7 +43,7 @@ export default function Home() {
           <div style={{flexDirection:'row', display:'flex'}}>
             <div className={styles.boxlogo}> 
               <Image
-                src="/symbol_musik.jpg"
+                src="/symbol_musik.webp"
                 alt="Musik-symbol"
                 quality={100}
                 width={500}

@@ -8,10 +8,11 @@ export default function Home() {
     <Layout title="Gräsö Konstrunda 2023">
       <div className = {styles.index}>
         <Image
-          src = "/map_black.png"
+          src = "/map_black.webp"
           alt = "Bild på Gräsö"
           width = {320}
           height = {320}
+          quality = {100}
           className = {styles.map}
           priority
         />

@@ -7,7 +7,7 @@ export default function Topbar() {
         <div className={styles.navbar}>
             <Link href="/" className={styles.navbar_logo}>
                 <Image
-                    src="/logo.png"
+                    src="/logo.webp"
                     alt="Gräsö Konstrunda 2023"
                     quality={100}
                     width={500}
