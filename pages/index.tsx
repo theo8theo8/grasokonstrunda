@@ -5,7 +5,7 @@ import Layout from '@/components/layout'
 
 export default function Home() {
   return <>
-    <Layout title="Gräsö Konstrunda 2023">
+    <Layout title="Gräsö konstrunda 2023">
       <div className = {styles.index}>
         <Image
           src = "/map_black.webp"

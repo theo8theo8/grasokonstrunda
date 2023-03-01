@@ -4,7 +4,7 @@ import Layout from '@/components/layout'
 
 export default function Home() {
   return <>
-    <Layout title="Gräsö Konstrunda - Fika">
+    <Layout title="Gräsö konstrunda - Fika">
       <div className={styles.fika}>
         <div className={styles.box}>
           <div style={{flexDirection:'row', display:'flex'}}>

@@ -4,7 +4,7 @@ import Layout from '@/components/layout'
 
 export default function Home() {
   return <>
-    <Layout title="Gräsö Konstrunda - Kontakt">
+    <Layout title="Gräsö konstrunda - Kontakt">
       <div className={styles.contact}>
         <h1>Kontaktinformation</h1>
         <p><b>Kyll Hellberg: </b>073-914 04 31</p>

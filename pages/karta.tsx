@@ -6,7 +6,7 @@ const ImgMapper = dynamic(() => {return import('@/components/imgMapper');}, { ss
 export default function Home() {
   return (
     <>
-      <Layout title="Gräsö Konstrunda - Karta">
+      <Layout title="Gräsö konstrunda - Karta">
         <ImgMapper />
       </Layout>
     </>

@@ -6,7 +6,7 @@ import styles from '@/styles/style.module.css'
 export default function Home() {
   return (
     <>
-      <Layout title="Gräsö Konstrunda - Utställare">
+      <Layout title="Gräsö konstrunda - Utställare">
         <div className={styles.whereGo}>
           <div className={styles.whereSkylt}>
             <Image
