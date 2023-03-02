@@ -119,6 +119,7 @@
     padding: 2vw;
     width: fit-content;
     height: fit-content;
+    border: black solid;
 }
 
 @media only screen and (max-width: 1580px) {
@@ -151,7 +152,7 @@
 
 .clickMap {
     display: grid;
-    grid-template-columns: 30vw 20vw 30vw 20vw;
+    grid-template-columns: 30vw 20vw 50vw;
     align-items: center;
     justify-items: center;
 }
@@ -170,13 +171,23 @@
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 1vw;
     padding: 2vw;
-    width: fit-content;
     height: fit-content;
     z-index: 2;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    width: 40vw;
+    border: black solid;
 }
 
-.infoBox h1 {
+.infoHeader {
     margin-bottom: 0.5vw;
+    display: flex;
+}
+
+.infoLogo {
+    width: auto;
+    height: 7vh;
+    margin-right: 0.5vw;
 }
 
 .download {
@@ -215,7 +226,10 @@
         max-height: 35vh;
         max-width: 92vw;
         width: 92vw;
-        flex-wrap: wrap;
+    }
+    .infoLogo {
+        height: 4vh;
+        margin-right: 1vw;
     }
     .download {
         margin-top: 1vh;
@@ -245,9 +259,8 @@
     font-size: small;
     height: fit-content;
     width: 18vw;
-    border-color: black;
+    border: black solid;
     border-radius: 1vw;
-    border-style: solid;
     padding: 1vw;
 }
 
@@ -340,6 +353,7 @@
     padding: 1vw;
     margin-top: 2vw;
     width: 40vw;
+    border: black solid;
 }
 
 .box p {
@@ -387,7 +401,8 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 1vw;
-    padding: 2%;
+    padding: 1vw;
+    border: black solid;
 }
 
 .contact h1 {

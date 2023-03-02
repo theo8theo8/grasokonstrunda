@@ -1,6 +1,7 @@
 import styles from '@/styles/style.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import Image from "next/image";
 
 interface Props {
     place: string | undefined
@@ -15,7 +16,10 @@ export default function PlaceInfo({place}:Props) {
         case 1: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>1. Rävsten</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Cutlery.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>1. Rävsten</h1>
+                    </div>
                     <p><em>Här finns lunch och fika. Passbåt från äspskärs brygga måste förbokas digitalt <a className={styles.link} href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090" target="_blank" rel="noreferrer">här!</a></em></p><br/>
                     <p><b>Louise Westerberg</b><br/><em>Fårskinn, almanackor, skärgårdsbilder</em></p><br/>
                     <p><b>Jörgen Carlsson</b><br/><em>Akvarell, olja</em></p><br/>
@@ -52,7 +56,10 @@ export default function PlaceInfo({place}:Props) {
         case 3: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>3. Bjurön</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Kaffekopp.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>3. Bjurön</h1>
+                    </div>
                     <p><em>Fika med hembakat</em></p><br/>
                     <p><b>Eva-Karin Lundberg</b><br/><em>Oljemålningar, trädgård</em></p><br/>
                     <a className={styles.link} href="https://goo.gl/maps/eojzApoFjp6JK1yu5" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
@@ -70,7 +77,11 @@ export default function PlaceInfo({place}:Props) {
         case 4: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>4. Högklyke</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Guitar.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <Image src="/Kaffekopp.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>4. Högklyke</h1>
+                    </div>
                     <p><em>Fika, en fiol, några folkmusiklåtar under dagen</em></p><br/>
                     <p><b>Elisabeth Lundgren</b><br/><em>Fotografi - ögonblick med fåglar, landskap</em></p><br/>
                     <p><b>Britt-Marie Jansson</b><br/><em>Akvarell, måleri landskap och blommor</em></p><br/>
@@ -89,7 +100,10 @@ export default function PlaceInfo({place}:Props) {
         case 5: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>5. Muskaregrund</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Kaffekopp.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>5. Muskaregrund</h1>
+                    </div>
                     <p><em>Fika</em></p><br/>
                     <p><b>Berit Blom</b><br/><em>Handarbeten, stickat och broderat</em></p><br/>
                     <a className={styles.link} href="https://goo.gl/maps/d2S5YdbuXtX3yjXH7" target="_blank" rel="noreferrer"><em>Hitta hit!</em></a>
@@ -107,7 +121,11 @@ export default function PlaceInfo({place}:Props) {
         case 6: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>6. Församlingshemmet</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Guitar.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <Image src="/Kaffekopp.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>6. Församlingshemmet</h1>
+                    </div>
                     <p><em>Fika och musik som dyker upp när man minst anar det</em></p><br/>
                     <p><b>Åsa Gröndal</b><br/><em>Akrylmålningar</em></p><br/>
                     <p><b>Jessica Hörner</b><br/><em>Fotografier</em></p><br/>
@@ -128,7 +146,10 @@ export default function PlaceInfo({place}:Props) {
         case 7: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>7. Gräsö Camping, Restaurang Doppingen</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Cutlery.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>7. Gräsö Camping, Restaurang Doppingen</h1>
+                    </div>
                     <p><em>Fika, mat, glass, bad m.m. Här finns handikapptoalett</em></p><br/>
                     <p><b>Mimmi Dubén</b><br/><em>Måleri akryl</em></p><br/>
                     <p><b>Gunilla Skoglund</b><br/><em>Oljemåleri</em></p><br/>
@@ -233,7 +254,10 @@ export default function PlaceInfo({place}:Props) {
         case 13: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>13. Anders Matsgården</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Cutlery.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>13. Anders Matsgården</h1>
+                    </div>
                     <p><em>Café. Antikviteter, vintage, retro. Silverutställning - äldre silver från trakten.</em></p><br/>
                     <p><b>Grävlings Naturprodukter Gräsö</b><br/><em>Naturnära hantverk, ljus m.m tillverkat på Gräsö</em></p><br/>
                     <p><b>Staffan Strand</b><br/><em>Bronsskulpturer, gipser</em></p><br/>
@@ -269,7 +293,10 @@ export default function PlaceInfo({place}:Props) {
         case 15: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>15. Norrboda Bygdegård</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Cutlery.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>15. Norrboda Bygdegård</h1>
+                    </div>
                     <p><em>Café. Här finns handikapptoalett</em></p><br/>
                     <p><b>Lars Bäcklund</b><br/><em>Trä och läder</em></p><br/>
                     <p><b>Gun Asplind</b><br/><em>Olja, akvarell, litografi, posters, vykort</em></p><br/>
@@ -328,7 +355,10 @@ export default function PlaceInfo({place}:Props) {
         case 18: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>18. Lökäng</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Guitar.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>18. Lökäng</h1>
+                    </div>
                     <p><em>Musik måndag, onsdag,<br/> fredag och lördag 12.00</em></p><br/>
                     <p><b>Margit Martens</b><br/><em>Keramik</em></p><br/>
                     <p><b>Hans-åke Lerin</b><br/><em>Fotografier, fotobok</em></p><br/>
@@ -371,7 +401,10 @@ export default function PlaceInfo({place}:Props) {
         case 20: {
             return (
                 <div className={styles.infoBox}>
-                    <h1>20. Hamnen Källskärsudden</h1>
+                    <div className={styles.infoHeader}>
+                        <Image src="/Kaffekopp.svg" alt="Fika" width={300} height={200} className={styles.infoLogo}/>
+                        <h1>20. Hamnen Källskärsudden</h1>
+                    </div>
                     <p><em>Ca 200m att gå ifrån parkeringen. Fika finns</em></p><br/>
                     <p><b>Carina Pålgård</b><br/><em>Måleri akryl, abstrakt och intuitivt</em></p><br/>
                     <p><b>Irene Wåhlin</b><br/><em>Akryl, akvarell, blandteknik, foto, textil, hantverk i olika material</em></p><br/>
