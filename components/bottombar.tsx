@@ -17,7 +17,8 @@ export default function Bottombar() {
                             alt="Nykterhetsrörelsens bildningsverksamhet"
                             className={styles.sponsLogo}
                             fill
-                            sizes="(max-width: 768px) 30vw, 12vw"
+                            quality={100}
+                            sizes="(max-width: 768px) 40vw, 25vw"
                             style={{
                                 objectFit: "contain"
                             }} />
