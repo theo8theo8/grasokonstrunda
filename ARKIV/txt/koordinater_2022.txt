@@ -1,0 +1,23 @@
+
+<map name="kartamap">
+    <area title= "1. R&auml;vsten" target="iframe" href="1.htm" coords="356,649,399,671" shape="rect">
+    <area title= "2. Id&ouml; g&aring;rd" target="iframe" href="2.htm" coords="332,635,354,665" shape="rect">
+    <area title= "3. Bjur&ouml;n" target="iframe" href="3.htm" coords="291,687,332,712" shape="rect">
+    <area title= "4. H&ouml;gklyke" target="iframe" href="4.htm" coords="257,517,318,540" shape="rect">
+    <area title= "5. Muskaregrund" target="iframe" href="5.htm" coords="213,511,255,536" shape="rect">
+    <area title= "6. F&ouml;rsamlingshemmet" target="iframe" href="6.htm" coords="129,545,190,569" shape="rect">
+    <area title= "7. Gr&auml;s&ouml; Camping Restaurang Doppingen" target="iframe" href="7.htm" coords="120,520,177,546" shape="rect">
+    <area title= "8. N&ouml;tsveden" target="iframe" href="8.htm" coords="166,492,188,519" shape="rect">
+    <area title= "9. Oxsten" target="iframe" href="9.htm" coords="192,460,217,487" shape="rect">
+    <area title= "10. V&auml;sterbyn" target="iframe" href="10.htm" coords="130,493,156,519" shape="rect">
+    <area title= "11. Djursten" target="iframe" href="11.htm" coords="97,465,123,490" shape="rect">
+    <area title= "12. V&auml;ster M&ouml;rtar&ouml; Studio 838" target="iframe" href="12.htm" coords="90,312,117,340" shape="rect">
+    <area title= "13. Anders Matsg&aring;rden" target="iframe" href="13.htm" coords="83,275,126,302" shape="rect">
+    <area title= "14. Sj&ouml;&auml;ng" target="iframe" href="14.htm" coords="74,249,103,271" shape="rect">
+    <area title= "15. Norrboda Bygdeg&aring;rd" target="iframe" href="15.htm" coords="74,220,139,246" shape="rect">
+    <area title= "16. V&auml;sterhamnen Norrboda" target="iframe" href="16.htm" coords="71,188,98,211" shape="rect">
+    <area title= "17. V&auml;sterhamnen Norrboda" target="iframe" href="17.htm" coords="43,188,69,214" shape="rect">
+    <area title= "18. L&ouml;k&auml;ng" target="iframe" href="18.htm" coords="48,150,95,177" shape="rect">
+    <area title= "19. &auml;ngstorpet Norrboda" target="iframe" href="19.htm" coords="108,131,134,154" shape="rect">
+    <area title= "20. Hamnen K&auml;llsk&auml;rsudden" target="iframe" href="20.htm" coords="110,106,157,131" shape="rect">
+    </map>

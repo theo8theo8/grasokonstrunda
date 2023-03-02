@@ -1,0 +1,49 @@
+
+FTP!!!
+----------------
+
+2014-01-09
+----------------
+
+Nya inloggningsuppgifter till kontrollpanelen:
+
+Användarnamn: lisa.brundin@btwentyfour.com
+Lösenord: UllaKyllv28
+
+-----
+
+Detta är gamla inloggningen (innan 2014-01-09):
+
+Administration av ditt webbhotellskonto sker via kontrollpanelen som du kan nå här:
+
+https://www.one.com/admin/
+
+För att logga in på kontrollpanelen använder du följande information:
+
+Användarnamn:	grasokonstrunda.se
+Lösenord:	konstv28LB
+
+
+------------------------------------------------
+
+Teknisk information för grasokonstrunda.se
+FTP:	
+Host:	ftp.grasokonstrunda.se
+Användarnamn (User):	grasokonstrunda.se
+Lösenord (Password):	konstv28LB
+ 
+E-MAIL:	
+IMAP server:	imap.grasokonstrunda.se
+POP3 server:	pop.grasokonstrunda.se
+SMTP server:	send.one.com
+Webmail:	https://www.one.com/ 
+MySQL:	
+Host/Värd:	grasokonstrunda.se.mysql
+Databas:	grasokonstrunda
+Användarnamn (User):	grasokonstrunda
+Lösenord (Password):	tKQ9KcGB
+ 
+PhpMyAdmin:	
+PhpMyAdmin:	https://dbadmin.one.com/Användarnamn (User):	grasokonstrunda
+Lösenord (Password):	tKQ9KcGB
+
