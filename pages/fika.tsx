@@ -10,7 +10,7 @@ export default function Home() {
           <div style={{flexDirection:'row', display:'flex'}}>
             <div className={styles.boxlogo}>
               <Image
-                src="/cutlery.svg"
+                src="/Cutlery.svg"
                 alt="Fika-symbol"
                 quality={100}
                 width={500}
