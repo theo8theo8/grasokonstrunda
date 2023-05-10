@@ -124,7 +124,7 @@
 
 @media only screen and (max-width: 1580px) {
     .map {
-        width: 15vw
+        width: 15vw;
     }
     .indexText {
         margin-left: 3vw;
@@ -245,7 +245,7 @@
 
 .konstnarer {
     width: 80vw;
-    height: 140vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -293,13 +293,13 @@
 
 @media only screen and (max-width: 1536px) {
     .konstnarer {
-        height: 210vh
+        height: 210vh;
     }
 }
 
 @media only screen and (max-width: 1280px) {
     .konstnarer {
-        height: 180vh
+        height: 200vh;
     }
 }
 
@@ -388,7 +388,7 @@
     }
     .boxheader {
         margin-bottom: 2vw;
-        flex: 4
+        flex: 4;
     }
 }
 

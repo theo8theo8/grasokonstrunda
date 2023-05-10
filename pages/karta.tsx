@@ -1,7 +1,12 @@
-import Layout from '@/components/layout';
-import dynamic from 'next/dynamic';
+import Layout from "@/components/layout";
+import dynamic from "next/dynamic";
 
-const ImgMapper = dynamic(() => {return import('@/components/imgMapper');}, { ssr: false });
+const ImgMapper = dynamic(
+  () => {
+    return import("@/components/imgMapper");
+  },
+  { ssr: false }
+);
 
 export default function Home() {
   return (
@@ -10,5 +15,5 @@ export default function Home() {
         <ImgMapper />
       </Layout>
     </>
-  )
+  );
 }

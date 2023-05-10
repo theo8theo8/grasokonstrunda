@@ -1,163 +1,463 @@
-import styles from '@/styles/style.module.css'
+import styles from "@/styles/style.module.css";
 
 export default function AllArtists() {
-    return(
-        <div className={styles.konstnarer}>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>1. Rävsten</h2>
-                    <p><em>Här finns lunch och fika. Passbåt från äspskärs brygga måste förbokas digitalt <a className={styles.link} href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090" target="_blank" rel="noreferrer">här!</a></em></p><br/>
-                </div>
-                <p><b>Louise Westerberg</b><br/><em>Fårskinn, almanackor, skärgårdsbilder</em></p><br/>
-                <p><b>Jörgen Carlsson</b><br/><em>Akvarell, olja</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>2. Idö gård</h2>
-                </div>
-                <p><b>AnnaKarin Boode</b><br/><em>Skulpturer, målningar</em></p><br/>
-                <p><b>Johanna Florenius</b><br/><em>Textil</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>3. Bjurön</h2>
-                    <p><em>Fika med hembakat</em></p><br/>
-                </div>
-                <p><b>Eva-Karin Lundberg</b><br/><em>Oljemålningar, trädgård</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>4. Högklyke</h2>
-                    <p><em>Fika, en fiol, några folkmusiklåtar under dagen</em></p><br/>
-                </div>
-                <p><b>Elisabeth Lundgren</b><br/><em>Fotografi - ögonblick med fåglar, landskap</em></p><br/>
-                <p><b>Britt-Marie Jansson</b><br/><em>Akvarell, måleri landskap och blommor</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>5. Muskaregrund</h2>
-                    <p><em>Fika</em></p><br/>
-                </div>
-                <p><b>Berit Blom</b><br/><em>Handarbeten, stickat och broderat</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>6. Församlingshemmet</h2>
-                    <p><em>Fika och musik som dyker upp när man minst anar det</em></p><br/>
-                </div>
-                <p><b>Åsa Gröndal</b><br/><em>Akrylmålningar</em></p><br/>
-                <p><b>Jessica Hörner</b><br/><em>Fotografier</em></p><br/>
-                <p><b>Helena Hörner</b><br/><em>Stickat</em></p><br/>
-                <p><b>Lilian Wickholm</b><br/><em>Akryl, olja, akvarell</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>7. Gräsö Camping Restaurang Doppingen</h2>
-                    <p><em>Fika, mat, glass, bad m.m. Här finns handikapptoalett</em></p><br/>
-                </div>
-                <p><b>Mimmi Dubén</b><br/><em>Måleri akryl</em></p><br/>
-                <p><b>Gunilla Skoglund</b><br/><em>Oljemåleri</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>8. Nötsveden</h2>
-                </div>
-                <p><b>Sören Lindström</b><br/><em>Trähantverk svepteknik, svarvat, luffarslöjd</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>9. Oxsten</h2>
-                </div>
-                <p><b>Marina Laurent</b><br/><em>Fotografier &quot;Natur i närbild&quot;</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>10. Västerbyn</h2>
-                    <p><em>Fika</em></p><br/>
-                </div>
-                <p><b>Gunilla Andersson</b><br/><em>Oljemåleri</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>11. Djursten</h2>
-                </div>
-                <p><b>Göte Andersson</b><br/><em>Träslöjd</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>12. Väster Mörtarö Studio 838</h2>
-                </div>
-                <p><b>Martin Lima de Faria</b><br/><em>Fotokonst med miniatyrer m.m</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>13. Anders Matsgården</h2>
-                    <p><em>Café. Antikviteter, vintage, retro. Silverutställning - äldre silver från trakten.</em></p><br/>
-                </div>
-                <p><b>Grävlings Naturprodukter Gräsö</b><br/><em>Naturnära hantverk, ljus m.m tillverkat på Gräsö</em></p><br/>
-                <p><b>Staffan Strand</b><br/><em>Bronsskulpturer, gipser</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>14. Sjöäng</h2>
-                </div>
-                <p><b>Kerstin Sjöblom</b><br/><em>Akryl, olja, akvarell</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>15. Norrboda Bygdegård</h2>
-                    <p><em>Café. Här finns handikapptoalett</em></p><br/>
-                </div>
-                <p><b>Lars Bäcklund</b><br/><em>Trä och läder</em></p><br/>
-                <p><b>Gun Asplind</b><br/><em>Olja, akvarell, litografi, posters, vykort</em></p><br/>
-                <p><b>Thomas Olofsson</b><br/><em>Knivar</em></p><br/>
-                <p><b>Monica Ohlsson</b><br/><em>Personliga fotografier från Gräsö</em></p><br/>
-                <p><b>Paulina Partanen</b><br/><em>Olja, akvarell, akryl</em></p><br/>
-                <p><b>Peter Backemar</b><br/><em>Ställer ut sin bok &quot;Livet på en ö i Roslagen under första delen av 1900-talet&quot;</em></p><br/>
-                <p><b>Lena Dalnert</b><br/><em>Akvarell</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>16. Västerhamnen Norrboda</h2>
-                </div>
-                <p><b>Vega Zetterström</b><br/><em>Akvarell, akryl</em></p><br/>
-                <p><b>Lars-Gunnar Bråvander</b><br/><em>Foton, akvarell, akryl m.m</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>17. Västerhamnen Norrboda</h2>
-                </div>
-                <p><b>Elin Lindqvist</b><br/><em>Festfint &quot;mina ängder gröna&quot; dukningskonst och blomsterinstallationer</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>18. Lökäng</h2>
-                    <p><em>Musik måndag, onsdag, fredag och lördag 12.00</em></p><br/>
-                </div>
-                <p><b>Margit Martens</b><br/><em>Keramik</em></p><br/>
-                <p><b>Hans-åke Lerin</b><br/><em>Fotografier, fotobok</em></p><br/>
-                <p><b>Anna Karlsson</b><br/><em>Textilkonst-botaniska tryck på tyg och papper samt broderi</em></p><br/>
-                <p><b>Sanne Vils</b><br/><em>Waldorfdockor och silver</em></p><br/>
-                <p><b>Jon Gerbrand</b><br/><em>Lampor</em></p><br/>
-                <p><b>Dennis Persson</b><br/><em>Skulptur i återbruk, fotomontage, målningar</em></p><br/>
-                <p><b>Ulla Gerbrand</b><br/><em>Olja, akryl, grafik</em></p><br/>
-                <p><b>Kyll Hellberg</b><br/><em>Waldorfdockor och änglar</em></p><br/>
-                <p><b>Eleonore Holmgren Uppsalaförfattare</b><br/><em>På tisdag pratar hon om sin bok &quot;Sista sommaren&quot; som är nominerad till årets bok</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>19. Ängstorpet Norrboda</h2>
-                </div>
-                <p><b>Roland Kallström</b><br/><em>Konst och hantverk</em></p><br/>
-            </div>
-            <div className={styles.placeBox}>
-                <div className={styles.marg}>
-                    <h2>20. Hamnen Källskärsudden</h2>
-                    <p><em>Ca 200m att gå ifrån parkeringen. Fika finns</em></p><br/>
-                </div>
-                <p><b>Carina Pålgård</b><br/><em>Måleri akryl, abstrakt och intuitivt</em></p><br/>
-                <p><b>Irene Wåhlin</b><br/><em>Akryl, akvarell, blandteknik, foto, textil, hantverk i olika material</em></p><br/>
-            </div>
+  return (
+    <div className={styles.konstnarer}>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>1. Rävsten</h2>
+          <p>
+            <em>
+              Här finns lunch och fika. Passbåt från äspskärs brygga måste
+              förbokas digitalt{" "}
+              <a
+                className={styles.link}
+                href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
+                target="_blank"
+                rel="noreferrer"
+              >
+                här!
+              </a>
+            </em>
+          </p>
+          <br />
         </div>
-    )
+        <p>
+          <b>Hans Gustafsson</b>
+          <br />
+          <em>Akvarell, motorsågsskulpturer</em>
+        </p>
+        <br />
+        <p>
+          <b>Louise Westerberg</b>
+          <br />
+          <em>Fårskinn, almanackor, skärgårdsbilder</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>2. Idö gård</h2>
+        </div>
+        <p>
+          <b>Anna Karin Boode</b>
+          <br />
+          <em>Skulpturer, oljemålningar</em>
+        </p>
+        <br />
+        <p>
+          <b>Johanna Florenius</b>
+          <br />
+          <em>Textilt hantverk, väskor, kuddar m.m</em>
+        </p>
+        <br />
+        <p>
+          <b>Meta Fästh Brunnberg</b>
+          <br />
+          <em>Linnekläder, accessoarer</em>
+        </p>
+        <br />
+        <p>
+          <b>Solveig Bergholm</b>
+          <br />
+          <em>Vindfångare</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>3. Bjurön</h2>
+          <p>
+            <em>Fika</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Fredrik Birgegård</b>
+          <br />
+          <em>Oljemålningar - figurativt med abstrakta inslag</em>
+        </p>
+        <br />
+        <p>
+          <b>Lars-Erik Birgegård</b>
+          <br />
+          <em>Oljemålningar - landskapsmotiv</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>4. Högklyke</h2>
+        </div>
+        <p>
+          <b>Elisabeth Lundgren</b>
+          <br />
+          <em>Fotografi - ögonblick med fåglar, landskap</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>5. Muskaregrund</h2>
+          <p>
+            <em>Fika</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Berit Blom</b>
+          <br />
+          <em>Handarbeten, stickat och broderat</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>6. Sundsborg samlingssalen</h2>
+          <p>
+            <em>Catwalk måndag 10/7 12:00 om vädret tillåter</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Christina Aplemark</b>
+          <br />
+          <em>Kläder</em>
+        </p>
+        <br />
+        <p>
+          <b>Marie Koskinen</b>
+          <br />
+          <em>Akvareller</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>7. Sundsborg 27</h2>
+          <p>
+            <em>Fika</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Eva Sjöstedt Meshesha</b>
+          <br />
+          <em>Pärlplattor - "Vägen tillbaka"</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>8. Gräsö Camping, Restaurang Doppingen</h2>
+          <p>
+            <em>Fika, mat, glass, bad m.m. Här finns handikapptoalett</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Gunilla Skoglund</b>
+          <br />
+          <em>Oljemåleri</em>
+        </p>
+        <br />
+        <p>
+          <b>Ann-Charlotte Lindström</b>
+          <br />
+          <em>Måleri - hav och strand</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>9. Nötsveden IP</h2>
+          <p>
+            <em>Fika. Musik som dyker upp när man minst anar det</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Björn Andersson</b>
+          <br />
+          <em>Akvarell</em>
+        </p>
+        <br />
+        <p>
+          <b>Åsa Gröndal</b>
+          <br />
+          <em>Akrylmålningar</em>
+        </p>
+        <br />
+        <p>
+          <b>Helena Hörner</b>
+          <br />
+          <em>Stickat</em>
+        </p>
+        <br />
+        <p>
+          <b>Jessica Hörner</b>
+          <br />
+          <em>Canvasfoto fron närområdet</em>
+        </p>
+        <br />
+        <p>
+          <b>Evy Tydal</b>
+          <br />
+          <em>Trasmattor - dubble bindning</em>
+        </p>
+        <br />
+        <p>
+          <b>Lilian Wickholm</b>
+          <br />
+          <em>Akryl, akvarell</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>10. Nötsveden</h2>
+        </div>
+        <p>
+          <b>Sören Lindström</b>
+          <br />
+          <em>Trähantverk svepteknik, luffarslöjd, svarvat</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>11. Västerbyn</h2>
+        </div>
+        <p>
+          <b>Gunilla Andersson</b>
+          <br />
+          <em>Oljemålningar</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>12. Baklä</h2>
+        </div>
+        <p>
+          <b>Birgitta Lejman</b>
+          <br />
+          <em>Keramik</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>13. Väster Mörtarö Studio 838</h2>
+        </div>
+        <p>
+          <b>Martin Lima de Faria</b>
+          <br />
+          <em>
+            Autogram(självbiografiska kalligram), Small People Big
+            Plans(fotokonst med miniatyrer)
+          </em>
+        </p>
+        <br />
+        <p>
+          <b>Maud Karlsson Lima de Faria</b>
+          <br />
+          <em>"Med ögon känsliga för grönt""</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>14. Anders Matsgården</h2>
+          <p>
+            <em>Fika, glass.</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Emmanuelle Strand Jean</b>
+          <br />
+          <em>Fil de fer(järntrådsfigurer), målningar, foton</em>
+        </p>
+        <br />
+        <p>
+          <b>Staffan Strand</b>
+          <br />
+          <em>Bronsskulpturer</em>
+        </p>
+        <br />
+        <p>
+          <b>Grävlings Naturprodukter</b>
+          <br />
+          <em>Naturnära hantverk tillverkat på Gräsö</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>15. Sjöäng</h2>
+        </div>
+        <p>
+          <b>Kerstin Sjöblom</b>
+          <br />
+          <em>Akvarell, akryl, olja</em>
+        </p>
+        <br />
+        <p>
+          <b>Thomas Håkansson</b>
+          <br />
+          <em>Fotografier</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>16. Norrboda Bygdegård</h2>
+          <p>
+            <em>Fika och smörgåsar. Här finns handikapptoalett</em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>Sonja Lindberg</b>
+          <br />
+          <em>Akvarell</em>
+        </p>
+        <br />
+        <p>
+          <b>Anders Keyser</b>
+          <br />
+          <em>Naturfoto på stora canvastavlor</em>
+        </p>
+        <br />
+        <p>
+          <b>Monica Ohlsson</b>
+          <br />
+          <em>Gott och blandat, personliga fotografier</em>
+        </p>
+        <br />
+        <p>
+          <b>Thomas Olofsson</b>
+          <br />
+          <em>Knivmakare</em>
+        </p>
+        <br />
+        <p>
+          <b>Irene Wåhlin</b>
+          <br />
+          <em>Stentroll, kuddar, tavlor m. text, keramikfigurer</em>
+        </p>
+        <br />
+        <p>
+          <b>Eva Rengren</b>
+          <br />
+          <em>Stickat;</em>
+        </p>
+        <br />
+        <p>
+          <b>Östen Andersson</b>
+          <br />
+          <em>Har sin bok "Det nya foket" till försäljning</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>17. Västerhamnen Norrboda</h2>
+        </div>
+        <p>
+          <b>Elin Lindqvist</b>
+          <br />
+          <em>Festfint</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>18. Norrboda 405 - Runes båtbyggeri</h2>
+        </div>
+        <p>
+          <b>Per Joelsson</b>
+          <br />
+          <em>Oljemålningar</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>19. Lökäng</h2>
+          <p>
+            <em>
+              Musik måndag, tisdag, och fredag klockan 12:30, lördag klockan
+              12.00
+            </em>
+          </p>
+          <br />
+        </div>
+        <p>
+          <b>
+            Eleonore Holmgren
+            <br />
+            Uppsalaförfattare
+          </b>
+          <br />
+          <em>
+            Pratar om sin nya bok
+            <br /> "Arvet efter Britta" måndag 10/7 klockan 15:00
+          </em>
+        </p>
+        <br />
+        <p>
+          <b>Hans-åke Lerin</b>
+          <br />
+          <em>
+            Fotografier, rörliga bilder, ny fotobok <br />
+            "Bilden innan"
+          </em>
+        </p>
+        <br />
+        <p>
+          <b>Sanne Vils</b>
+          <br />
+          <em>Waldorfdockor, silver, änglar</em>
+        </p>
+        <br />
+        <p>
+          <b>Kyll Hellberg</b>
+          <br />
+          <em>Waldorfdockor, änglar</em>
+        </p>
+        <br />
+        <p>
+          <b>Ulla Gerbrand</b>
+          <br />
+          <em>Måleri - blandteknik, akryl, olja</em>
+        </p>
+        <br />
+        <p>
+          <b>Jon Gerbrand</b>
+          <br />
+          <em>Lampor</em>
+        </p>
+        <br />
+        <p>
+          <b>Margit Martens</b>
+          <br />
+          <em>Keramik</em>
+        </p>
+        <br />
+      </div>
+      <div className={styles.placeBox}>
+        <div className={styles.marg}>
+          <h2>20. Ängstorpet Norrboda</h2>
+        </div>
+        <p>
+          <b>Roland Kallström</b>
+          <br />
+          <em>Konst och hantverk</em>
+        </p>
+        <br />
+      </div>
+    </div>
+  );
 }
