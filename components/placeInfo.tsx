@@ -785,8 +785,9 @@ export default function PlaceInfo({ place }: Props) {
           </div>
           <p>
             <em>
-              Musik måndag, tisdag,
-              <br /> och fredag klockan 12:30, lördag klockan 12.00
+              Musik måndag, tisdag
+              <br /> och fredag klockan 12:30,
+              <br /> lördag klockan 12.00
             </em>
           </p>
           <br />
@@ -828,7 +829,7 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Ulla Gerbrand</b>
             <br />
-            <em>Måleri - blandteknik, akryl, olja</em>
+            <em>Måleri - blandteknik, akryl, olja och grafik</em>
           </p>
           <br />
           <p>

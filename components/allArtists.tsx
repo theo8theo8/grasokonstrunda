@@ -432,7 +432,7 @@ export default function AllArtists() {
         <p>
           <b>Ulla Gerbrand</b>
           <br />
-          <em>Måleri - blandteknik, akryl, olja</em>
+          <em>Måleri - blandteknik, akryl, olja och grafik</em>
         </p>
         <br />
         <p>
