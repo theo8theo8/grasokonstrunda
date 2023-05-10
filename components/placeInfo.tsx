@@ -288,7 +288,7 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Eva Sjöstedt Meshesha</b>
             <br />
-            <em>Pärlplattor - "Vägen tillbaka"</em>
+            <em>Pärlplattor - &quot;Vägen tillbaka&quot;</em>
           </p>
           <br />
           <a
@@ -532,7 +532,7 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Maud Karlsson Lima de Faria</b>
             <br />
-            <em>"Med ögon känsliga för grönt""</em>
+            <em>&quot;Med ögon känsliga för grönt&quot;</em>
           </p>
           <br />
           <a
@@ -694,7 +694,7 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Östen Andersson</b>
             <br />
-            <em>Har sin bok "Det nya foket" till försäljning</em>
+            <em>Har sin bok &quot;Det nya foket&quot; till försäljning</em>
           </p>
           <br />
           <a
@@ -799,7 +799,8 @@ export default function PlaceInfo({ place }: Props) {
             <br />
             <em>
               Pratar om sin nya bok
-              <br /> "Arvet efter Britta" måndag 10/7 klockan 15:00
+              <br />
+              &quot;Arvet efter Britta&quot; måndag 10/7 klockan 15:00
             </em>
           </p>
           <br />
@@ -808,7 +809,7 @@ export default function PlaceInfo({ place }: Props) {
             <br />
             <em>
               Fotografier, rörliga bilder, ny fotobok <br />
-              "Bilden innan"
+              &quot;Bilden innan&quot;
             </em>
           </p>
           <br />
