@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </div>
             <p>
-              Rävsten <b>(1)</b>, här finns lunch och fika.
+              Rävsten <b>(1)</b>, här finns lunch, fika och glass.
             </p>
             <p>
               Gräsö Camping Restaurang Doppingen <b>(8)</b> erbjuder fika, mat,
