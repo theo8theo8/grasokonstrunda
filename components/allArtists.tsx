@@ -372,7 +372,10 @@ export default function AllArtists() {
         <p>
           <b>Elin Lindqvist, Festfint</b>
           <br />
-          <em>"Mina ängder gröna", dukningskonst och blomsterinstallationer</em>
+          <em>
+            &quot;Mina ängder gröna&quot;, dukningskonst och
+            blomsterinstallationer
+          </em>
         </p>
         <br />
       </div>

@@ -735,7 +735,8 @@ export default function PlaceInfo({ place }: Props) {
             <b>Elin Lindqvist, Festfint</b>
             <br />
             <em>
-              "Mina ängder gröna", dukningskonst och blomsterinstallationer
+              &quot;Mina ängder gröna&quot;, dukningskonst och
+              blomsterinstallationer
             </em>
           </p>
           <br />
