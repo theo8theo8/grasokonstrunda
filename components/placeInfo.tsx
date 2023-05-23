@@ -28,8 +28,8 @@ export default function PlaceInfo({ place }: Props) {
           </div>
           <p>
             <em>
-              Här finns lunch och fika. Passbåt från Äspskärs brygga måste
-              förbokas digitalt{" "}
+              Här finns lunch, fika och glass. Passbåt från Äspskärs brygga
+              måste förbokas digitalt{" "}
               <a
                 className={styles.link}
                 href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
@@ -62,7 +62,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -108,7 +108,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -154,7 +154,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -165,7 +165,19 @@ export default function PlaceInfo({ place }: Props) {
     case 4: {
       return (
         <div className={styles.infoBox}>
-          <h1>4. Högklyke</h1>
+          <div className={styles.infoHeader}>
+            <Image
+              src="/Kaffekopp.svg"
+              alt="Fika"
+              width={300}
+              height={200}
+              className={styles.infoLogo}
+            />
+            <h1>4. Högklyke</h1>
+          </div>
+          <p>
+            <em>Kaffe med bullar och kylda drycker</em>
+          </p>
           <br />
           <p>
             <b>Elisabeth Lundgren</b>
@@ -182,7 +194,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -222,7 +234,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -260,7 +272,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -300,7 +312,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -346,7 +358,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -399,13 +411,13 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Jessica Hörner</b>
             <br />
-            <em>Canvasfoto fron närområdet</em>
+            <em>Canvasfoto från närområdet</em>
           </p>
           <br />
           <p>
             <b>Evy Tydal</b>
             <br />
-            <em>Trasmattor - dubble bindning</em>
+            <em>Trasmattor - dubbelbindning</em>
           </p>
           <br />
           <p>
@@ -423,7 +435,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -451,7 +463,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -479,7 +491,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -507,7 +519,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -544,7 +556,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -596,7 +608,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -630,7 +642,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -682,7 +694,7 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Irene Wåhlin</b>
             <br />
-            <em>Stentroll, kuddar, tavlor m. text, keramikfigurer</em>
+            <em>Tavlor/akryl och konsthantverk</em>
           </p>
           <br />
           <p>
@@ -694,7 +706,7 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Östen Andersson</b>
             <br />
-            <em>Har sin bok &quot;Det nya foket&quot; till försäljning</em>
+            <em>Har sin bok &quot;Det fria folket&quot; till försäljning</em>
           </p>
           <br />
           <a
@@ -706,7 +718,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -720,9 +732,11 @@ export default function PlaceInfo({ place }: Props) {
           <h1>17. Västerhamnen Norrboda</h1>
           <br />
           <p>
-            <b>Elin Lindqvist</b>
+            <b>Elin Lindqvist, Festfint</b>
             <br />
-            <em>Festfint</em>
+            <em>
+              "Mina ängder gröna", dukningskonst och blomsterinstallationer
+            </em>
           </p>
           <br />
           <a
@@ -734,7 +748,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -762,7 +776,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -810,7 +824,7 @@ export default function PlaceInfo({ place }: Props) {
             <br />
             <em>
               Fotografier, rörliga bilder, ny fotobok <br />
-              &quot;Bilden innan&quot;
+              &quot;Bildminnen&quot;
             </em>
           </p>
           <br />
@@ -835,7 +849,10 @@ export default function PlaceInfo({ place }: Props) {
           <p>
             <b>Jon Gerbrand</b>
             <br />
-            <em>Lampor</em>
+            <em>
+              Lampor - renoverat, återbruk och nytänk av vackra saker som
+              kastats bort
+            </em>
           </p>
           <br />
           <p>
@@ -853,7 +870,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>
@@ -880,7 +897,7 @@ export default function PlaceInfo({ place }: Props) {
             <em>Hitta hit!</em>
           </a>
           <div className={styles.download}>
-            <a href="/Flyer_A4_2022.pdf" download>
+            <a href="/Flyer_2023.pdf" download>
               <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
             <p>Ladda ned en pdf av kartan!</p>

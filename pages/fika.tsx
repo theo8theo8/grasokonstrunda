@@ -65,13 +65,14 @@ export default function Home() {
               <div className={styles.boxheader}>
                 <h3>Enklare fika</h3>
                 <p>
-                  <em>Fyra utställningsplatser serverar enklare fika.</em>
+                  <em>Fem utställningsplatser serverar enklare fika.</em>
                 </p>
               </div>
             </div>
             <p>
-              Muskaregrund <b>(5)</b>, Sundsborg 27 <b>(7)</b>, Nötsveden IP{" "}
-              <b>(9)</b> samt på plats nummer <b>(14)</b> Anders Matsgården.
+              Högklyke <b>(4)</b>, Muskaregrund <b>(5)</b>, Sundsborg 27{" "}
+              <b>(7)</b>, Nötsveden IP <b>(9)</b> samt på plats nummer{" "}
+              <b>(14)</b> Anders Matsgården.
             </p>
           </div>
           <div className={styles.box}>

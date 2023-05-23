@@ -8,8 +8,8 @@ export default function AllArtists() {
           <h2>1. Rävsten</h2>
           <p>
             <em>
-              Här finns lunch och fika. Passbåt från äspskärs brygga måste
-              förbokas digitalt{" "}
+              Här finns lunch, fika och glass. Passbåt från Äspskärs brygga
+              måste förbokas digitalt{" "}
               <a
                 className={styles.link}
                 href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
@@ -88,6 +88,10 @@ export default function AllArtists() {
       <div className={styles.placeBox}>
         <div className={styles.marg}>
           <h2>4. Högklyke</h2>
+          <p>
+            <em>Kaffe med bullar och kylda drycker</em>
+          </p>
+          <br />
         </div>
         <p>
           <b>Elisabeth Lundgren</b>
@@ -197,13 +201,13 @@ export default function AllArtists() {
         <p>
           <b>Jessica Hörner</b>
           <br />
-          <em>Canvasfoto fron närområdet</em>
+          <em>Canvasfoto från närområdet</em>
         </p>
         <br />
         <p>
           <b>Evy Tydal</b>
           <br />
-          <em>Trasmattor - dubble bindning</em>
+          <em>Trasmattor - dubbelbindning</em>
         </p>
         <br />
         <p>
@@ -345,7 +349,7 @@ export default function AllArtists() {
         <p>
           <b>Irene Wåhlin</b>
           <br />
-          <em>Stentroll, kuddar, tavlor m. text, keramikfigurer</em>
+          <em>Tavlor/akryl och konsthantverk</em>
         </p>
         <br />
         <p>
@@ -357,7 +361,7 @@ export default function AllArtists() {
         <p>
           <b>Östen Andersson</b>
           <br />
-          <em>Har sin bok &quot;Det nya foket&quot; till försäljning</em>
+          <em>Har sin bok &quot;Det fria folket&quot; till försäljning</em>
         </p>
         <br />
       </div>
@@ -366,9 +370,9 @@ export default function AllArtists() {
           <h2>17. Västerhamnen Norrboda</h2>
         </div>
         <p>
-          <b>Elin Lindqvist</b>
+          <b>Elin Lindqvist, Festfint</b>
           <br />
-          <em>Festfint</em>
+          <em>"Mina ängder gröna", dukningskonst och blomsterinstallationer</em>
         </p>
         <br />
       </div>
@@ -413,7 +417,7 @@ export default function AllArtists() {
           <br />
           <em>
             Fotografier, rörliga bilder, ny fotobok <br />
-            &quot;Bilden innan&quot;
+            &quot;Bildminnen&quot;
           </em>
         </p>
         <br />
@@ -438,7 +442,10 @@ export default function AllArtists() {
         <p>
           <b>Jon Gerbrand</b>
           <br />
-          <em>Lampor</em>
+          <em>
+            Lampor - renoverat, återbruk och nytänk av vackra saker som kastats
+            bort
+          </em>
         </p>
         <br />
         <p>

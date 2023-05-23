@@ -15,7 +15,7 @@ export default function MapInfo({ showInfo }: Props) {
           <b>Klicka på en av siffrorna för att se mer information!</b>
         </p>
         <div className={styles.download}>
-          <a href="/Flyer_A4_2022.pdf" download>
+          <a href="/Flyer_2023.pdf" download>
             <FontAwesomeIcon icon={faFileArrowDown} />
           </a>
           <p>Ladda ned en pdf av kartan!</p>

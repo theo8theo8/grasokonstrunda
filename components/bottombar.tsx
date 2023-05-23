@@ -104,7 +104,7 @@ export default function Bottombar() {
             />
           </a>
         </div>
-        <p>Sidan uppdaterades 2023-05-10</p>
+        <p>Sidan uppdaterades 2023-05-23</p>
       </div>
     </div>
   );

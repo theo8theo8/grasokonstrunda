@@ -10,7 +10,7 @@ export const MAP = {
     },
     {
       id: "2. Idö gård",
-      coords: [2640, 5085, 2785, 5232],
+      coords: [2683, 5369, 2828, 5514],
       shape: "rect",
       fillColor: "#00000000",
       strokeColor: "#00000000",
@@ -24,7 +24,7 @@ export const MAP = {
     },
     {
       id: "4. Högklyke",
-      coords: [2180, 4170, 2332, 4324],
+      coords: [2110, 4170, 2403, 4324],
       shape: "rect",
       fillColor: "#00000000",
       strokeColor: "#00000000",
