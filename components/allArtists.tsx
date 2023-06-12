@@ -130,9 +130,9 @@ export default function AllArtists() {
         </p>
         <br />
         <p>
-          <b>Marie Koskinen</b>
+          <b>Marie Koslin</b>
           <br />
-          <em>Akvareller</em>
+          <em>Akryl - mixed media</em>
         </p>
         <br />
       </div>

@@ -258,9 +258,9 @@ export default function PlaceInfo({ place }: Props) {
           </p>
           <br />
           <p>
-            <b>Marie Koskinen</b>
+            <b>Marie Koslin</b>
             <br />
-            <em>Akvareller</em>
+            <em>Akryl - mixed media</em>
           </p>
           <br />
           <a
