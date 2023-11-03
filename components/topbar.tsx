@@ -19,7 +19,7 @@ export default function Topbar() {
         />
       </Link>
       <Link href="/">START</Link>
-      <Link href="/karta">KARTA ÖVER GRÄSÖ</Link>
+      <Link href="/karta">KARTA</Link>
       <Link href="/konstnarer">KONSTNÄRER</Link>
       <Link href="/fika">FIKA</Link>
       <Link href="/kontakt">KONTAKT</Link>

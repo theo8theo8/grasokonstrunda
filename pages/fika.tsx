@@ -37,7 +37,7 @@ export default function Home() {
               Rävsten <b>(1)</b>, här finns lunch, fika och glass.
             </p>
             <p>
-              Gräsö Camping Restaurang Doppingen <b>(8)</b> erbjuder fika, mat,
+              Gräsö Camping & Restaurang Doppingen <b>(8)</b> erbjuder mat,
               glass, bad m.m samt tillgång till handikapptoalett.
             </p>
             <p>

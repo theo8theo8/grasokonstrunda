@@ -24,15 +24,12 @@ export default function Home() {
               <br />{" "}
             </h2>
             <p>
-              Vecka 28 smyckar konstnärer sina hem, sjöbodar,
+              Vecka 28 smyckar konstnärer sina hem, sjöbodar, lador och
+              bygdegårdar med sin konst!
               <br />
-              lador och bygdegårdar med sin konst!
-              <br />
-              Konstutställningarna är utspridda över hela ön
-              <br />
-              och ni får möjlighet att uppleva den härliga atmosfär
-              <br />
-              och natur som finns på Gräsö.
+              Konstutställningarna är utspridda över hela ön och ni får
+              möjlighet att uppleva den härliga atmosfär och natur som finns på
+              Gräsö.
               <br /> <br />
               <b>
                 Varmt välkommen till Gräsö konstrunda!
