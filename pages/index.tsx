@@ -14,7 +14,7 @@ export default function Home() {
             width={320}
             height={320}
             quality={100}
-            className={styles.map}
+            className={styles.indexMap}
             priority
           />
           <div className={styles.indexText}>
