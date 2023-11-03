@@ -24,22 +24,25 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>1. Rävsten</h1>
+            <div>
+              <h1>1. Rävsten</h1>
+              <p>
+                <em>
+                  Här finns lunch, fika och glass. Passbåt från Äspskärs brygga
+                  måste förbokas digitalt{" "}
+                  <a
+                    className={styles.link}
+                    href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    här!
+                  </a>
+                </em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>
-              Här finns lunch, fika och glass. Passbåt från Äspskärs brygga
-              måste förbokas digitalt{" "}
-              <a
-                className={styles.link}
-                href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
-                target="_blank"
-                rel="noreferrer"
-              >
-                här!
-              </a>
-            </em>
-          </p>
+
           <br />
           <p>
             <b>Hans Gustafsson</b>
@@ -127,11 +130,14 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>3. Bjurön</h1>
+            <div>
+              <h1>3. Bjurön</h1>
+              <p>
+                <em>Fika</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika</em>
-          </p>
+
           <br />
           <p>
             <b>Fredrik Birgegård</b>
@@ -173,11 +179,14 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>4. Högklyke</h1>
+            <div>
+              <h1>4. Högklyke</h1>
+              <p>
+                <em>Kaffe med bullar och kylda drycker</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Kaffe med bullar och kylda drycker</em>
-          </p>
+
           <br />
           <p>
             <b>Elisabeth Lundgren</b>
@@ -213,11 +222,14 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>5. Muskaregrund</h1>
+            <div>
+              <h1>5. Muskaregrund</h1>
+              <p>
+                <em>Fika</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika</em>
-          </p>
+
           <br />
           <p>
             <b>Berit Blom</b>
@@ -291,11 +303,14 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>7. Sundsborg 27</h1>
+            <div>
+              <h1>7. Sundsborg 27</h1>
+              <p>
+                <em>Fika</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika</em>
-          </p>
+
           <br />
           <p>
             <b>Eva Sjöstedt Meshesha</b>
@@ -331,11 +346,14 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>8. Gräsö Camping, Restaurang Doppingen</h1>
+            <div>
+              <h1>8. Gräsö Camping, Restaurang Doppingen</h1>
+              <p>
+                <em>Fika, mat, glass, bad m.m. Här finns handikapptoalett</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika, mat, glass, bad m.m. Här finns handikapptoalett</em>
-          </p>
+
           <br />
           <p>
             <b>Gunilla Skoglund</b>
@@ -384,61 +402,64 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>9. Nötsveden IP</h1>
+            <div>
+              <h1>9. Nötsveden IP</h1>
+              <p>
+                <em>Fika. Musik som dyker upp när man minst anar det</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika. Musik som dyker upp när man minst anar det</em>
-          </p>
-          <br />
-          <p>
-            <b>Björn Andersson</b>
+          <div className={styles.infoContent}>
+            <p>
+              <b>Björn Andersson</b>
+              <br />
+              <em>Akvarell</em>
+            </p>
             <br />
-            <em>Akvarell</em>
-          </p>
-          <br />
-          <p>
-            <b>Åsa Gröndal</b>
+            <p>
+              <b>Åsa Gröndal</b>
+              <br />
+              <em>Akrylmålningar</em>
+            </p>
             <br />
-            <em>Akrylmålningar</em>
-          </p>
-          <br />
-          <p>
-            <b>Helena Hörner</b>
+            <p>
+              <b>Helena Hörner</b>
+              <br />
+              <em>Stickat</em>
+            </p>
             <br />
-            <em>Stickat</em>
-          </p>
-          <br />
-          <p>
-            <b>Jessica Hörner</b>
+            <p>
+              <b>Jessica Hörner</b>
+              <br />
+              <em>Canvasfoto från närområdet</em>
+            </p>
             <br />
-            <em>Canvasfoto från närområdet</em>
-          </p>
-          <br />
-          <p>
-            <b>Evy Tydal</b>
+            <p>
+              <b>Evy Tydal</b>
+              <br />
+              <em>Trasmattor - dubbelbindning</em>
+            </p>
             <br />
-            <em>Trasmattor - dubbelbindning</em>
-          </p>
-          <br />
-          <p>
-            <b>Lilian Wickholm</b>
+            <p>
+              <b>Lilian Wickholm</b>
+              <br />
+              <em>Akryl, akvarell</em>
+            </p>
             <br />
-            <em>Akryl, akvarell</em>
-          </p>
-          <br />
-          <a
-            className={styles.link}
-            href="https://goo.gl/maps/4AshcRSBxSBzNFsi6"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <em>Hitta hit!</em>
-          </a>
-          <div className={styles.download}>
-            <a href="/Flyer_2023.pdf" download>
-              <FontAwesomeIcon icon={faFileArrowDown} />
+            <a
+              className={styles.link}
+              href="https://goo.gl/maps/4AshcRSBxSBzNFsi6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <em>Hitta hit!</em>
             </a>
-            <p>Ladda ned en pdf av kartan!</p>
+            <div className={styles.download}>
+              <a href="/Flyer_2023.pdf" download>
+                <FontAwesomeIcon icon={faFileArrowDown} />
+              </a>
+              <p>Ladda ned en pdf av kartan!</p>
+            </div>
           </div>
         </div>
       );
@@ -575,11 +596,14 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>14. Anders Matsgården</h1>
+            <div>
+              <h1>14. Anders Matsgården</h1>
+              <p>
+                <em>Fika, glass.</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika, glass.</em>
-          </p>
+
           <br />
           <p>
             <b>Emmanuelle Strand Jean</b>
@@ -661,67 +685,70 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>16. Norrboda Bygdegård</h1>
+            <div>
+              <h1>16. Norrboda Bygdegård</h1>
+              <p>
+                <em>Fika och smörgåsar. Här finns handikapptoalett</em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>Fika och smörgåsar. Här finns handikapptoalett</em>
-          </p>
-          <br />
-          <p>
-            <b>Sonja Lindberg</b>
+          <div className={styles.infoContent}>
+            <p>
+              <b>Sonja Lindberg</b>
+              <br />
+              <em>Akvarell</em>
+            </p>
             <br />
-            <em>Akvarell</em>
-          </p>
-          <br />
-          <p>
-            <b>Anders Keyser</b>
+            <p>
+              <b>Anders Keyser</b>
+              <br />
+              <em>Naturfoto på stora canvastavlor</em>
+            </p>
             <br />
-            <em>Naturfoto på stora canvastavlor</em>
-          </p>
-          <br />
-          <p>
-            <b>Monica Ohlsson</b>
+            <p>
+              <b>Monica Ohlsson</b>
+              <br />
+              <em>Gott och blandat, personliga fotografier</em>
+            </p>
             <br />
-            <em>Gott och blandat, personliga fotografier</em>
-          </p>
-          <br />
-          <p>
-            <b>Thomas Olofsson</b>
+            <p>
+              <b>Thomas Olofsson</b>
+              <br />
+              <em>Knivmakare</em>
+            </p>
             <br />
-            <em>Knivmakare</em>
-          </p>
-          <br />
-          <p>
-            <b>Irene Wåhlin</b>
+            <p>
+              <b>Irene Wåhlin</b>
+              <br />
+              <em>Tavlor/akryl och konsthantverk</em>
+            </p>
             <br />
-            <em>Tavlor/akryl och konsthantverk</em>
-          </p>
-          <br />
-          <p>
-            <b>Eva Rengren</b>
+            <p>
+              <b>Eva Rengren</b>
+              <br />
+              <em>Stickat;</em>
+            </p>
             <br />
-            <em>Stickat;</em>
-          </p>
-          <br />
-          <p>
-            <b>Östen Andersson</b>
+            <p>
+              <b>Östen Andersson</b>
+              <br />
+              <em>Har sin bok &quot;Det fria folket&quot; till försäljning</em>
+            </p>
             <br />
-            <em>Har sin bok &quot;Det fria folket&quot; till försäljning</em>
-          </p>
-          <br />
-          <a
-            className={styles.link}
-            href="https://goo.gl/maps/NFZZjPXa5Ne9Kh7dA"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <em>Hitta hit!</em>
-          </a>
-          <div className={styles.download}>
-            <a href="/Flyer_2023.pdf" download>
-              <FontAwesomeIcon icon={faFileArrowDown} />
+            <a
+              className={styles.link}
+              href="https://goo.gl/maps/NFZZjPXa5Ne9Kh7dA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <em>Hitta hit!</em>
             </a>
-            <p>Ladda ned en pdf av kartan!</p>
+            <div className={styles.download}>
+              <a href="/Flyer_2023.pdf" download>
+                <FontAwesomeIcon icon={faFileArrowDown} />
+              </a>
+              <p>Ladda ned en pdf av kartan!</p>
+            </div>
           </div>
         </div>
       );
@@ -796,85 +823,87 @@ export default function PlaceInfo({ place }: Props) {
               height={200}
               className={styles.infoLogo}
             />
-            <h1>19. Lökäng</h1>
+            <div>
+              <h1>19. Lökäng</h1>
+              <p>
+                <em>
+                  Musik måndag, tisdag och fredag klockan 12:30, lördag klockan
+                  12.00
+                </em>
+              </p>
+            </div>
           </div>
-          <p>
-            <em>
-              Musik måndag, tisdag
-              <br /> och fredag klockan 12:30,
-              <br /> lördag klockan 12.00
-            </em>
-          </p>
-          <br />
-          <p>
-            <b>
-              Eleonore Holmgren
+          <div className={styles.infoContent}>
+            <p>
+              <b>
+                Eleonore Holmgren
+                <br />
+                Uppsalaförfattare
+              </b>
               <br />
-              Uppsalaförfattare
-            </b>
+              <em>
+                Pratar om sin nya bok
+                <br />
+                &quot;Arvet efter Britta&quot; måndag 10/7 klockan 15:00
+              </em>
+            </p>
             <br />
-            <em>
-              Pratar om sin nya bok
+            <p>
+              <b>Hans-åke Lerin</b>
               <br />
-              &quot;Arvet efter Britta&quot; måndag 10/7 klockan 15:00
-            </em>
-          </p>
-          <br />
-          <p>
-            <b>Hans-åke Lerin</b>
+              <em>
+                Fotografier, rörliga bilder, ny fotobok <br />
+                &quot;Bildminnen&quot;
+              </em>
+            </p>
             <br />
-            <em>
-              Fotografier, rörliga bilder, ny fotobok <br />
-              &quot;Bildminnen&quot;
-            </em>
-          </p>
-          <br />
-          <p>
-            <b>Sanne Vils</b>
+            <p>
+              <b>Sanne Vils</b>
+              <br />
+              <em>Waldorfdockor, silver, änglar</em>
+            </p>
             <br />
-            <em>Waldorfdockor, silver, änglar</em>
-          </p>
-          <br />
-          <p>
-            <b>Kyll Hellberg</b>
+            <p>
+              <b>Kyll Hellberg</b>
+              <br />
+              <em>Waldorfdockor, änglar</em>
+            </p>
             <br />
-            <em>Waldorfdockor, änglar</em>
-          </p>
-          <br />
-          <p>
-            <b>Ulla Gerbrand</b>
+            <p>
+              <b>Ulla Gerbrand</b>
+              <br />
+              <em>Måleri - blandteknik, akryl, olja och grafik</em>
+            </p>
             <br />
-            <em>Måleri - blandteknik, akryl, olja och grafik</em>
-          </p>
-          <br />
-          <p>
-            <b>Jon Gerbrand</b>
+            <p>
+              <b>Jon Gerbrand</b>
+              <br />
+              <em>
+                Lampor - renoverat, återbruk och nytänk av vackra saker som
+                kastats bort
+              </em>
+            </p>
             <br />
-            <em>
-              Lampor - renoverat, återbruk och nytänk av vackra saker som
-              kastats bort
-            </em>
-          </p>
-          <br />
-          <p>
-            <b>Margit Martens</b>
+            <p>
+              <b>Margit Martens</b>
+              <br />
+              <em>Keramik</em>
+            </p>
             <br />
-            <em>Keramik</em>
-          </p>
-          <br />
-          <a
-            className={styles.link}
-            href="https://goo.gl/maps/DJtN7XHNAKJxs4W58"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <em>Hitta hit!</em>
-          </a>
-          <div className={styles.download}>
-            <a href="/Flyer_2023.pdf" download>
-              <FontAwesomeIcon icon={faFileArrowDown} />
+            <a
+              className={styles.link}
+              href="https://goo.gl/maps/DJtN7XHNAKJxs4W58"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <em>Hitta hit!</em>
             </a>
-            <p>Ladda ned en pdf av kartan!</p>
+            <div className={styles.download}>
+              <a href="/Flyer_2023.pdf" download>
+                <FontAwesomeIcon icon={faFileArrowDown} />
+              </a>
+              <p>Ladda ned en pdf av kartan!</p>
+            </div>
           </div>
         </div>
       );
@@ -883,6 +912,7 @@ export default function PlaceInfo({ place }: Props) {
       return (
         <div className={styles.infoBox}>
           <h1>20. Ängstorpet Norrboda</h1>
+          <br />
           <p>
             <b>Roland Kallström</b>
             <br />

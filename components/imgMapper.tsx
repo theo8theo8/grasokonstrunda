@@ -7,13 +7,20 @@ import MapInfo from "@/components/mapInfo";
 export default function ImgMapper() {
   const [showInfo, setShowInfo] = useState<CustomArea | undefined>(undefined);
   const [showName, setShowName] = useState<string | undefined>(""); //TODO: Fixa så att namnet visas när man hovrar över en siffra
-  let width = 451;
-  if (window.innerHeight < 900) {
-    width = window.innerHeight / 3;
+  let width = 500;
+  if (window.innerWidth < 426) {
+    width = 270;
+  } else if (window.innerWidth < 1025) {
+    width = 300;
+  } else if (window.innerWidth < 1441) {
+    width = 350;
+  } else if (window.innerWidth < 1921) {
+    width = 400;
   }
+
   return (
-    <div className={styles.clickMap}>
-      <div id="box1" className={styles.box1}>
+    <>
+      <div id="map" className={styles.map}>
         <ImageMapper
           responsive={true}
           parentWidth={width}
@@ -25,9 +32,9 @@ export default function ImgMapper() {
           map={MAP}
         />
       </div>
-      <div className={styles.box2}>
+      <div className={styles.infoBoxContainer}>
         <MapInfo showInfo={showInfo} />
       </div>
-    </div>
+    </>
   );
 }
