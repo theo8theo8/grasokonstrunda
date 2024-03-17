@@ -1,12 +1,11 @@
-import styles from "@/styles/style.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/logo.webp";
 
 export default function Topbar() {
   return (
-    <div className={styles.navbar}>
-      <Link href="/" className={styles.navbar_logo}>
+    <div className="flex border-b border-gray-500 items-center justify-between text-xs sm:text-xl  ">
+      <Link href="/" className="w-16 sm:w-28">
         <Image
           src={logo}
           alt="Gräsö Konstrunda 2023"
