@@ -35,12 +35,13 @@ export default function Home() {
                 Varmt välkommen till Gräsö konstrunda!
                 <br />
                 <br />
-                Kartan är nu uppdaterad med 2023 års platser och konstnärer!
+                Kartan kommer under maj månad att uppdateras med 2024 års
+                platser och konstnärer!
               </b>
             </p>
             <h1>
               <br />
-              V.28 10-16 juli 2023
+              V.28 8-14 juli 2024
             </h1>
             <h2>
               <br />
