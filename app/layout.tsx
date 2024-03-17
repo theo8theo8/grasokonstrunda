@@ -1,6 +1,8 @@
 import { Comfortaa } from "next/font/google";
 import { Metadata } from "next";
 import "@/styles/globals.css";
+import styles from "@/styles/style.module.css";
+import Topbar from "@/components/topbar";
 
 const font = Comfortaa({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -14,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="sv">
-      <body className={`${font.className}`}>{children}</body>
+      <body className={`${font.className} ${styles.main}`}>
+        <Topbar />
+        {children}
+      </body>
     </html>
   );
 }
