@@ -1,6 +1,6 @@
 "use client";
-import Layout from "@/components/layout";
 import dynamic from "next/dynamic";
+import { Metadata } from "next";
 
 const ImgMapper = dynamic(
   () => {
@@ -10,11 +10,5 @@ const ImgMapper = dynamic(
 );
 
 export default function Home() {
-  return (
-    <>
-      <Layout title="Gräsö konstrunda - Karta">
-        <ImgMapper />
-      </Layout>
-    </>
-  );
+  return <ImgMapper />;
 }
