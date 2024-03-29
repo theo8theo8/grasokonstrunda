@@ -1,27 +1,44 @@
-import Image from "next/image";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  Image,
+} from "@nextui-org/react";
 import Link from "next/link";
-import logo from "@/public/logo.webp";
+
+const navbarItems = [
+  { href: "/", label: "START" },
+  { href: "/karta", label: "KARTA" },
+  { href: "/konstnarer", label: "KONSTNÄRER" },
+  { href: "/fika", label: "FIKA" },
+  { href: "/kontakt", label: "KONTAKT" },
+];
+
+const LogoLink = () => (
+  <Link href="/" className="w-16 sm:w-28" passHref>
+    <Image src="/logo.webp" alt="Gräsö Konstrunda" isBlurred />
+  </Link>
+);
 
 export default function Topbar() {
   return (
-    <div className="flex border-b border-gray-500 items-center justify-between text-xs sm:text-xl  ">
-      <Link href="/" className="w-16 sm:w-28">
-        <Image
-          src={logo}
-          alt="Gräsö Konstrunda 2023"
-          quality={100}
-          sizes="(max-width: 768px) 50vw, 20vw"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-        />
-      </Link>
-      <Link href="/">START</Link>
-      <Link href="/karta">KARTA</Link>
-      <Link href="/konstnarer">KONSTNÄRER</Link>
-      <Link href="/fika">FIKA</Link>
-      <Link href="/kontakt">KONTAKT</Link>
-    </div>
+    <Navbar className="self-start" isBordered height={"6rem"} maxWidth="md">
+      <NavbarBrand>
+        <LogoLink />
+      </NavbarBrand>
+      <NavbarContent
+        className="hidden sm:flex gap-6 text-xs sm:text-xl"
+        justify="center"
+      >
+        {navbarItems.map((item) => (
+          <NavbarItem key={item.label}>
+            <Link href={item.href} className="text-xs sm:text-xl">
+              {item.label}
+            </Link>
+          </NavbarItem>
+        ))}
+      </NavbarContent>
+    </Navbar>
   );
 }

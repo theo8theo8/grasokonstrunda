@@ -1,47 +1,53 @@
-import styles from "@/styles/style.module.css";
-import Image from "next/image";
-
 import { Metadata } from "next";
+import {
+  Card,
+  CardBody,
+  CardFooter,
+  CardHeader,
+  Divider,
+  Link,
+} from "@nextui-org/react";
 export const metadata: Metadata = {
   title: "Gräsö konstrunda - Kontakt",
 };
 
 export default function Home() {
   return (
-    <>
-      <div className={styles.contact}>
-        <h1>Kontaktinformation</h1>
-        <p>
-          <b>Kyll Hellberg: </b>073-914 04 31
-        </p>
-        <p>
-          <b>Ulla Gerbrand: </b>070-575 59 67
-        </p>
-        <a
+    <Card className="max-w-[400px] place-self-center bottom-60" isFooterBlurred>
+      <CardHeader className="px-6 pt-4">
+        <h1 className="text-3xl font-bold">Kontaktinformation</h1>
+      </CardHeader>
+      <Divider />
+      <CardBody className="flex items-center gap-4 py-6">
+        <div className="flex gap-2">
+          <p className="font-bold">Kyll Hellberg:</p>
+          <p>073-914 04 31</p>
+        </div>
+        <div className="flex gap-2">
+          <p className="font-bold">Ulla Gerbrand:</p>
+          <p>070-575 59 67</p>
+        </div>
+        <Link
+          isExternal
+          color="foreground"
+          underline="always"
           href="mailto:info@grasokonstrunda.se"
-          target="_blank"
-          rel="noreferrer"
         >
+          {" "}
           info@grasokonstrunda.se
-        </a>
-        <a
+        </Link>
+      </CardBody>
+      <Divider />
+      <CardFooter className="flex justify-center py-4">
+        <Link
+          color="secondary"
+          isExternal
+          showAnchorIcon
           href="https://www.facebook.com/groups/663788286968932/?fref=ts"
-          target="_blank"
-          rel="noreferrer"
         >
-          <Image
-            src="/facebook-logo.webp"
-            alt="Facebook"
-            width={128}
-            height={64}
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-              width: "auto",
-            }}
-          />
-        </a>
-      </div>
-    </>
+          Besök oss på Facebook
+        </Link>
+      </CardFooter>
+    </Card>
   );
 }
