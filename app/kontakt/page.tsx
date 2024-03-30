@@ -16,14 +16,14 @@ export default function Home() {
   return (
     <>
       <Card
-        className="max-w-[400px] place-self-center bottom-20"
+        className="max-w-[400px] place-self-center sm:bottom-20"
         isFooterBlurred
       >
         <CardHeader className="px-6 pt-4">
-          <h1 className="text-3xl font-bold">Kontaktinformation</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold">Kontaktinformation</h1>
         </CardHeader>
         <Divider />
-        <CardBody className="flex items-center gap-4 py-6">
+        <CardBody className="flex items-center gap-2 sm:gap-4 py-4 sm:py-6">
           <div className="flex gap-2">
             <p className="font-bold">Kyll Hellberg:</p>
             <p>073-914 04 31</p>
