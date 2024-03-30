@@ -18,7 +18,7 @@ export default function Home() {
     width = 400;
   }
   return (
-    <div className="flex flex-col-reverse sm:flex-row sm:items-center justify-center sm:gap-14">
+    <div className="flex flex-col-reverse lg:flex-row md:items-center lg:justify-center md:gap-6 lg:gap-14">
       <ImageMapper
         responsive={true}
         parentWidth={width}

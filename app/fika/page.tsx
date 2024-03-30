@@ -19,21 +19,21 @@ const CafeCard: FC<CafeCardProps> = ({
   imageUrl,
   content,
 }) => (
-  <Card className="m-4 sm:m-0 sm:w-[1000px] bg-primary-100">
-    <CardHeader className="px-2 sm:px-6 pt-4 flex-row justify-start">
+  <Card className="m-4 lg:m-0 lg:w-[1000px] bg-primary-100">
+    <CardHeader className="px-2 sm:px-4 md:px-6 pt-4 flex-row justify-start">
       <Image
         src={imageUrl}
         alt={`${title}-symbol`}
-        className="w-16 sm:w-20"
+        className="w-16 md:w-20"
         radius="md"
       />
-      <div className="max-w-60 sm:max-w-full flex flex-col gap-0 sm:gap-2 ml-2 sm:ml-4">
-        <h2 className="text-lg sm:text-2xl font-bold">{title}</h2>
-        <p className="text-sm sm:text-md">{description}</p>
+      <div className="max-w-60 md:max-w-full flex flex-col gap-0 md:gap-2 ml-2 md:ml-4">
+        <h2 className="text-lg md:text-2xl font-bold">{title}</h2>
+        <p className="text-sm md:text-base">{description}</p>
       </div>
     </CardHeader>
     <Divider />
-    <CardBody className="gap-2 sm:gap-4 p-4 sm:p-6">
+    <CardBody className="gap-2 md:gap-4 p-4 md:p-6">
       {content.map((item, index) => (
         <div key={index}>{item}</div>
       ))}
@@ -91,7 +91,7 @@ const cafeInfo = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col sm:gap-4 items-center">
+    <div className="flex flex-col md:gap-4 items-center">
       {cafeInfo.map((info, index) => (
         <CafeCard key={index} {...info} />
       ))}

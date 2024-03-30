@@ -11,7 +11,7 @@ const SponsorLink: FC<{
     <Image
       src={src}
       alt={alt}
-      className={`${main ? "w-52 sm:w-56" : "w-16"}`}
+      className={`${main ? "w-28 md:w-56" : "w-8 md:w-16"}`}
       radius="none"
     />
   </Link>
@@ -21,14 +21,14 @@ const SponsorImage: FC<{
   src: string;
   alt: string;
 }> = ({ src, alt }) => (
-  <Image src={src} alt={alt} className="w-16" radius="none" />
+  <Image src={src} alt={alt} className="w-8 md:w-16" radius="none" />
 );
 
 export default function Bottombar() {
   return (
-    <div className="flex justify-center items-end gap-12 sm:gap-60 m-4 sm:m-2">
+    <div className="flex justify-center items-end gap-10 md:gap-28 lg:gap-60 m-4 md:m-2">
       <div>
-        <p className="font-bold text-xs sm:text-lg">Medarrangör:</p>
+        <p className="font-bold text-xs md:text-lg">Medarrangör:</p>
         <SponsorLink
           href="https://www.nbv.se/"
           src="/logos/nbv_logo.webp"
@@ -37,8 +37,8 @@ export default function Bottombar() {
         />
       </div>
       <div className="flex flex-col items-center">
-        <p className="font-bold text-xs sm:text-lg">Stödjande företag:</p>
-        <div className="flex items-center gap-2 sm:gap-4">
+        <p className="font-bold text-xs md:text-lg">Stödjande företag:</p>
+        <div className="flex items-center gap-2 md:gap-4">
           <SponsorLink
             href="https://www.ica.se/butiker/nara/osthammar/ica-sjoboden-1542/start/"
             src="/logos/ICAny.webp"
@@ -56,7 +56,9 @@ export default function Bottombar() {
             alt="Tidtryck"
           />
         </div>
-        <p className="text-[10px] sm:text-md">Sidan uppdaterades 2024-03-29</p>
+        <p className="text-[10px] md:text-base">
+          Sidan uppdaterades 2024-03-29
+        </p>
       </div>
     </div>
   );

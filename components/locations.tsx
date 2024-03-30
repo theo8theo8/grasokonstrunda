@@ -1,6 +1,6 @@
 import { Link } from "@nextui-org/react";
 
-interface Location {
+export interface Location {
   id: number;
   name: string;
   info?: string;
