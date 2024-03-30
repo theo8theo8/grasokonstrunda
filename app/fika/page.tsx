@@ -48,14 +48,14 @@ const cafeInfo = [
       "Är ni sugna på att besöka några mysiga caféer eller lunchställen kan vi tipsa om dessa.",
     imageUrl: "/Cutlery.svg",
     content: [
-      <p>
+      <p key="caf1">
         Rävsten <b>(1)</b>, här finns lunch, fika och glass.
       </p>,
-      <p>
+      <p key="caf2">
         Gräsö Camping & Restaurang Doppingen <b>(8)</b> erbjuder mat, glass, bad
         m.m samt tillgång till handikapptoalett.
       </p>,
-      <p>
+      <p key="caf3">
         Sist men inte minst Norrboda Bygdegård <b>(16)</b>, ett café med
         tillgång till handikapptoalett.
       </p>,
@@ -66,7 +66,7 @@ const cafeInfo = [
     description: "Fem utställningsplatser serverar enklare fika.",
     imageUrl: "/Kaffekopp.svg",
     content: [
-      <p>
+      <p key="fik1">
         Högklyke <b>(4)</b>, Muskaregrund <b>(5)</b>, Sundsborg 27 <b>(7)</b>,
         Nötsveden IP <b>(9)</b> samt på plats nummer <b>(14)</b> Anders
         Matsgården.
@@ -78,10 +78,10 @@ const cafeInfo = [
     description: "",
     imageUrl: "/Guitar.svg",
     content: [
-      <p>
+      <p key="mus1">
         Musik dyker upp när man minst anar det vid Nötsvedens IP <b>(9)</b>.
       </p>,
-      <p>
+      <p key="mus2">
         Musik spelas även i Lökäng <b>(19)</b> måndag, tisdag, och fredag
         klockan 12:30, lördag klockan 12.00.
       </p>,
