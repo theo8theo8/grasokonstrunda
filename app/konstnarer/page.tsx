@@ -24,17 +24,17 @@ export default function Home() {
           </p>
         </CardBody>
       </Card>
-      <div className="grid gap-4 grid-cols-4 grid-flow-row bg-primary-200 p-4 rounded-xl">
+      <div className="columns-4 space-y-4 bg-primary-200 p-4 rounded-xl mb-4">
         {Locations.map((location) => (
-          <Card
-            key={location.id}
-            className="bg-primary-100 w-[400px] h-fit row-auto"
-          >
+          <Card key={location.id} className="bg-primary-100 w-[400px] h-fit">
             <CardHeader className="flex-col items-start gap-1">
               <h2 className="text-lg font-bold">
                 {location.id}. {location.name}
               </h2>
               {location.info && <h3 className="text-sm">{location.info}</h3>}
+              {location.linkInfo && (
+                <h3 className="text-sm">{location.linkInfo}</h3>
+              )}
             </CardHeader>
             <Divider />
             <CardBody>

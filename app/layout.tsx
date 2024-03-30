@@ -15,7 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="sv" className="graso text-foreground bg-background">
+    <html
+      lang="sv"
+      className="overflow-x-hidden w-screen graso text-foreground bg-background"
+    >
       <body className={`${font.className}`}>
         <Providers>
           <Topbar />

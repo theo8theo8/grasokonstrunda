@@ -1,8 +1,10 @@
+import { Link } from "@nextui-org/react";
+
 interface Location {
   id: number;
   name: string;
   info?: string;
-  link?: string;
+  linkInfo?: JSX.Element;
   artists: Artist[];
   location: string;
   icons?: string[];
@@ -17,8 +19,21 @@ export const Locations: Location[] = [
   {
     id: 1,
     name: "Rävsten",
-    info: "Här finns lunch, fika och glass. Passbåt från Äspskärs brygga måste förbokas digitalt här!",
-    link: "https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090",
+    linkInfo: (
+      <h3>
+        <span>
+          Här finns lunch, fika och glass. Passbåt från Äspskärs brygga måste
+          förbokas digitalt{" "}
+        </span>
+        <Link
+          isExternal
+          color="secondary"
+          href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
+        >
+          här!
+        </Link>{" "}
+      </h3>
+    ),
     artists: [
       { name: "Hans Gustafsson", medium: "Akvarell, motorsågsskulpturer" },
       {
@@ -27,7 +42,7 @@ export const Locations: Location[] = [
       },
     ],
     location: "https://goo.gl/maps/THmgQ7JfKpAgvWT78",
-    icons: ["café"],
+    icons: ["Cutlery"],
   },
   {
     id: 2,
@@ -55,7 +70,7 @@ export const Locations: Location[] = [
       { name: "Lars-Erik Birgegård", medium: "Oljemålningar - landskapsmotiv" },
     ],
     location: "https://goo.gl/maps/ssYVNNMEjnke1czJ6",
-    icons: ["fika"],
+    icons: ["Kaffekopp"],
   },
   {
     id: 4,
@@ -68,7 +83,7 @@ export const Locations: Location[] = [
       },
     ],
     location: "https://goo.gl/maps/cbMrTjxfyKzteXUc6",
-    icons: ["fika"],
+    icons: ["Kaffekopp"],
   },
   {
     id: 5,
@@ -78,7 +93,7 @@ export const Locations: Location[] = [
       { name: "Berit Blom", medium: "Handarbeten, stickat och broderat" },
     ],
     location: "https://goo.gl/maps/d2S5YdbuXtX3yjXH7",
-    icons: ["fika"],
+    icons: ["Kaffekopp"],
   },
   {
     id: 6,
@@ -107,7 +122,7 @@ export const Locations: Location[] = [
       },
     ],
     location: "https://goo.gl/maps/56yPn5LrMcu6n5gm6",
-    icons: ["fika"],
+    icons: ["Kaffekopp"],
   },
   {
     id: 8,
@@ -124,7 +139,7 @@ export const Locations: Location[] = [
       },
     ],
     location: "https://goo.gl/maps/7b9LRD8vCvYBujSAA",
-    icons: ["café"],
+    icons: ["Cutlery"],
   },
   {
     id: 9,
@@ -139,7 +154,7 @@ export const Locations: Location[] = [
       { name: "Lilian Wickholm", medium: "Akryl, akvarell" },
     ],
     location: "https://goo.gl/maps/4AshcRSBxSBzNFsi6",
-    icons: ["fika", "musik"],
+    icons: ["Kaffekopp", "Guitar"],
   },
   {
     id: 10,
@@ -196,7 +211,7 @@ export const Locations: Location[] = [
       },
     ],
     location: "https://goo.gl/maps/LG7KWRDiEGQofrGo8",
-    icons: ["fika"],
+    icons: ["Kaffekopp"],
   },
   {
     id: 15,
@@ -227,7 +242,7 @@ export const Locations: Location[] = [
       },
     ],
     location: "https://goo.gl/maps/NFZZjPXa5Ne9Kh7dA",
-    icons: ["café"],
+    icons: ["Cutlery"],
   },
   {
     id: 17,
@@ -274,7 +289,7 @@ export const Locations: Location[] = [
       { name: "Margit Martens", medium: "Keramik" },
     ],
     location: "https://goo.gl/maps/DJtN7XHNAKJxs4W58",
-    icons: ["musik"],
+    icons: ["Guitar"],
   },
   {
     id: 20,
