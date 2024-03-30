@@ -22,7 +22,7 @@ const CardHeaderContent = ({ location }: { location: Location }) => (
       <h3 className="text-xs lg:text-base">{location?.info}</h3>
     )}
     {location?.linkInfo && (
-      <h3 className="text-xs lg:text-base">{location?.linkInfo}</h3>
+      <h4 className="text-xs lg:text-base">{location?.linkInfo}</h4>
     )}
   </>
 );
