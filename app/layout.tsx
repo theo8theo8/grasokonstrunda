@@ -1,8 +1,8 @@
 import { Comfortaa } from "next/font/google";
 import { Metadata } from "next";
-import "@/styles/globals.css";
-import styles from "@/styles/style.module.css";
+import { Providers } from "./providers";
 import Topbar from "@/components/topbar";
+import "@/styles/globals.css";
 
 const font = Comfortaa({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -15,10 +15,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="sv">
-      <body className={`${font.className} ${styles.main}`}>
-        <Topbar />
-        {children}
+    <html
+      lang="sv"
+      className="overflow-x-hidden w-screen graso text-foreground bg-background"
+    >
+      <body className={`${font.className}`}>
+        <Providers>
+          <Topbar />
+          {children}
+        </Providers>
       </body>
     </html>
   );
