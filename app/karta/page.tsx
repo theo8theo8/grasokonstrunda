@@ -25,7 +25,7 @@ export default function Home() {
         responsive={true}
         parentWidth={width}
         imgWidth={451}
-        src={"/karta_2023.webp"}
+        src={"/karta_2024.webp"}
         onClick={(area) => setShowInfo(area)}
         map={MAP}
       />

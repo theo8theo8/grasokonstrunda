@@ -47,7 +47,7 @@ const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
         <CardFooter className="p-4 lg:p-6">
           <Link
             color="foreground"
-            href="/Flyer_2023.pdf"
+            href="/Flyer_2024.pdf"
             className="gap-2"
             download
           >
@@ -107,7 +107,7 @@ const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
         </Link>
         <Link
           color="foreground"
-          href="/Flyer_2023.pdf"
+          href="/Flyer_2024.pdf"
           className="gap-2"
           download
         >

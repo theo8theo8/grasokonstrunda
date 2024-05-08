@@ -45,31 +45,28 @@ const cafeInfo = [
   {
     title: "Café",
     description:
-      "Är ni sugna på att besöka några mysiga caféer eller lunchställen kan vi tipsa om dessa.",
+      "Är ni sugna på att besöka några mysiga caféer kan vi tipsa om dessa.",
     imageUrl: "/Cutlery.svg",
     content: [
       <p key="caf1">
-        Rävsten <b>(1)</b>, här finns lunch, fika och glass.
+        Vid Rävsten <b>(1)</b>, här finns lunch och fika.
       </p>,
       <p key="caf2">
-        Gräsö Camping & Restaurang Doppingen <b>(8)</b> erbjuder mat, glass, bad
-        m.m samt tillgång till handikapptoalett.
-      </p>,
-      <p key="caf3">
-        Sist men inte minst Norrboda Bygdegård <b>(16)</b>, ett café med
-        tillgång till handikapptoalett.
+        På Gräsö Bygdegård <b>(17)</b> finns ett café med tillgång till
+        handikapptoalett.
       </p>,
     ],
   },
   {
     title: "Enklare fika",
-    description: "Fem utställningsplatser serverar enklare fika.",
+    description: "Nio utställningsplatser serverar enklare fika.",
     imageUrl: "/Kaffekopp.svg",
     content: [
       <p key="fik1">
-        Högklyke <b>(4)</b>, Muskaregrund <b>(5)</b>, Sundsborg 27 <b>(7)</b>,
-        Nötsveden IP <b>(9)</b> samt på plats nummer <b>(14)</b> Anders
-        Matsgården.
+        Bjurön <b>(3)</b>, Bjurön <b>(4)</b>, Högklyke <b>(5)</b>, Muskaregrund{" "}
+        <b>(6)</b>, Nötsveden IP <b>(9)</b>, Anders Matsgården <b>(14)</b>,
+        Sjöäng <b>(15)</b>, Norrboda 78 <b>(18)</b> samt på plats nummer{" "}
+        <b>(25)</b> Båthusviken Källskärsudden.
       </p>,
     ],
   },
@@ -82,8 +79,8 @@ const cafeInfo = [
         Musik dyker upp när man minst anar det vid Nötsvedens IP <b>(9)</b>.
       </p>,
       <p key="mus2">
-        Musik spelas även i Lökäng <b>(19)</b> måndag, tisdag, och fredag
-        klockan 12:30, lördag klockan 12.00.
+        Musik spelas även i Lökäng <b>(23)</b> måndag, tisdag, onsdag och lördag
+        från 12.00.
       </p>,
     ],
   },

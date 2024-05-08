@@ -40,8 +40,7 @@ export default function Home() {
             </p>
             <p className="font-bold">Varmt välkommen till Gräsö konstrunda!</p>
             <p className="font-bold">
-              Kartan kommer under maj månad att uppdateras med 2024 års platser
-              och konstnärer!
+              Kartan är nu uppdaterad med 2024 års platser och konstnärer!
             </p>
           </CardBody>
           <Divider />

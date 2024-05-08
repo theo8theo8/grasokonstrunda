@@ -18,21 +18,17 @@ interface Artist {
 export const Locations: Location[] = [
   {
     id: 1,
-    name: "Rävsten",
+    name: "Rävstens stugby",
     linkInfo: (
-      <h3>
+      <>
         <span>
-          Här finns lunch, fika och glass. Passbåt från Äspskärs brygga måste
-          förbokas digitalt{" "}
+          Här finns lunch och fika. Passbåt från Äspskärs brygga måste förbokas
+          digitalt{" "}
         </span>
-        <Link
-          isExternal
-          color="secondary"
-          href="https://www.upplandsstiftelsen.se/vara-campingarochstugbyar/ravstens-stugby-startsida__5090"
-        >
+        <Link isExternal color="secondary" href="https://www.ravsten.se">
           här!
         </Link>{" "}
-      </h3>
+      </>
     ),
     artists: [
       { name: "Hans Gustafsson", medium: "Akvarell, motorsågsskulpturer" },
@@ -48,13 +44,13 @@ export const Locations: Location[] = [
     id: 2,
     name: "Idö gård",
     artists: [
-      { name: "Anna Karin Boode", medium: "Skulpturer, oljemålningar" },
+      { name: "Anna Karin Boode", medium: "Skulptur, målningar" },
       {
         name: "Johanna Florenius",
-        medium: "Textilt hantverk, väskor, kuddar m.m",
+        medium: "Textil, plantor och blommor",
       },
       { name: "Meta Fästh Brunnberg", medium: "Linnekläder, accessoarer" },
-      { name: "Solveig Bergholm", medium: "Vindfångare" },
+      { name: "Tina Lundgren", medium: "Måleri akryl, Vincent Råtta" },
     ],
     location: "https://goo.gl/maps/uFwPJCk2qUd8vcAT9",
   },
@@ -65,93 +61,81 @@ export const Locations: Location[] = [
     artists: [
       {
         name: "Fredrik Birgegård",
-        medium: "Oljemålningar - figurativt med abstrakta inslag",
+        medium: "Oljemålningar",
       },
-      { name: "Lars-Erik Birgegård", medium: "Oljemålningar - landskapsmotiv" },
+      { name: "Lars-Erik Birgegård", medium: "Oljemålningar" },
     ],
     location: "https://goo.gl/maps/ssYVNNMEjnke1czJ6",
     icons: ["Kaffekopp"],
   },
   {
     id: 4,
+    name: "Bjurön",
+    info: "Fika, trädgårdsvisning",
+    artists: [
+      {
+        name: "Eva-Karin Lundberg",
+        medium: "Olja- och akrylmålningar",
+      },
+    ],
+    location: "https://maps.app.goo.gl/PzVeEDavYB9qeBs68",
+    icons: ["Kaffekopp"],
+  },
+  {
+    id: 5,
     name: "Högklyke",
-    info: "Kaffe med bullar och kylda drycker",
+    info: "Fika",
     artists: [
       {
         name: "Elisabeth Lundgren",
-        medium: "Fotografi - ögonblick med fåglar, landskap",
+        medium: "Fotografier av fåglar och landskap",
       },
     ],
     location: "https://goo.gl/maps/cbMrTjxfyKzteXUc6",
     icons: ["Kaffekopp"],
   },
   {
-    id: 5,
-    name: "Muskaregrund",
+    id: 6,
+    name: "Muskargrund",
     info: "Fika",
     artists: [
-      { name: "Berit Blom", medium: "Handarbeten, stickat och broderat" },
+      { name: "Berit Blom", medium: "Handarbete, broderat och stickat" },
     ],
     location: "https://goo.gl/maps/d2S5YdbuXtX3yjXH7",
     icons: ["Kaffekopp"],
   },
   {
-    id: 6,
-    name: "Sundsborg samlingssalen",
-    info: "Catwalk måndag 10/7 12:00 om vädret tillåter",
-    artists: [
-      {
-        name: "Christina Aplemark",
-        medium: "Kläder",
-      },
-      {
-        name: "Marie Koslin",
-        medium: "Akryl - mixed media",
-      },
-    ],
-    location: "https://goo.gl/maps/DjkGfWf6pZjKzYLV6",
-  },
-  {
     id: 7,
-    name: "Sundsborg 27",
-    info: "Fika",
+    name: "Klockarhagen 17",
     artists: [
       {
-        name: "Eva Sjöstedt Meshesha",
-        medium: 'Pärlplattor - "Vägen tillbaka"',
+        name: "Maria Högström",
+        medium: "Oljemålningar, pärlbroderi",
       },
     ],
-    location: "https://goo.gl/maps/56yPn5LrMcu6n5gm6",
-    icons: ["Kaffekopp"],
+    location: "https://maps.app.goo.gl/kMoAYNirKnhHpQfD8",
   },
   {
     id: 8,
-    name: "Gräsö Camping, Restaurang Doppingen",
-    info: "Fika, mat, glass, bad m.m. Här finns handikapptoalett",
+    name: "Västerbyn 58",
     artists: [
       {
-        name: "Gunilla Skoglund",
-        medium: "Oljemåleri",
-      },
-      {
-        name: "Ann-Charlotte Lindström",
-        medium: "Måleri - hav och strand",
+        name: "Yvonne Jansson",
+        medium: "Rostkonst av återanvänt järn",
       },
     ],
-    location: "https://goo.gl/maps/7b9LRD8vCvYBujSAA",
-    icons: ["Cutlery"],
+    location: "https://maps.app.goo.gl/ZsVUukj734z1KFZk9",
   },
   {
     id: 9,
     name: "Nötsveden IP",
-    info: "Fika. Musik som dyker upp när man minst anar det",
+    info: "Fika, musik",
     artists: [
       { name: "Björn Andersson", medium: "Akvarell" },
-      { name: "Åsa Gröndal", medium: "Akrylmålningar" },
-      { name: "Helena Hörner", medium: "Stickat" },
-      { name: "Jessica Hörner", medium: "Canvasfoto från närområdet" },
-      { name: "Evy Tydal", medium: "Trasmattor - dubbelbindning" },
-      { name: "Lilian Wickholm", medium: "Akryl, akvarell" },
+      { name: "Eva Andersson", medium: "Stickat, tovat(valkat)" },
+      { name: "Åsa Gröndal", medium: "Akryl, olja" },
+      { name: "Lilian Wickholm", medium: "Akryl, olja, akvarell" },
+      { name: "Malena Åkerlöf", medium: "Foto" },
     ],
     location: "https://goo.gl/maps/4AshcRSBxSBzNFsi6",
     icons: ["Kaffekopp", "Guitar"],
@@ -162,49 +146,54 @@ export const Locations: Location[] = [
     artists: [
       {
         name: "Sören Lindström",
-        medium: "Trähantverk svepteknik, luffarslöjd, svarvat",
+        medium: "Hantverk, svepteknik, luffarslöjd, svarvat",
       },
     ],
     location: "https://goo.gl/maps/o6wsAeViFcSDaoRm9",
   },
   {
     id: 11,
-    name: "Västerbyn",
+    name: "Slätan",
     artists: [{ name: "Gunilla Andersson", medium: "Oljemålningar" }],
     location: "https://goo.gl/maps/YeXDH5zhWGoFJMHFA",
   },
   {
     id: 12,
-    name: "Baklä",
-    artists: [{ name: "Birgitta Lejman", medium: "Keramik" }],
-    location: "https://goo.gl/maps/HuMMebH7PXtJt3t49A",
+    name: "Klockarboda",
+    artists: [{ name: "Mika Ljung", medium: "Botaniska illustrationer" }],
+    location: "https://maps.app.goo.gl/e4rGedkHzjjaBHYt9",
   },
   {
     id: 13,
-    name: "Väster Mörtarö Studio 838",
+    name: "Baklä",
     artists: [
+      { name: "Birgitta Lejman", medium: "Keramik" },
       {
-        name: "Martin Lima de Faria",
-        medium:
-          "Autogram(självbiografiska kalligram), Small People Big Plans(fotokonst med miniatyrer)",
-      },
-      {
-        name: "Maud Karlsson Lima de Faria",
-        medium: '"Med ögon känsliga för grönt"',
+        name: "Birgitta Ekerstig Lönn",
+        medium: "Skärgårdsmotiv i akryl och akvarell",
       },
     ],
-    location: "https://goo.gl/maps/1z3mAyJtLyRG3YpY6",
+    location: "https://maps.app.goo.gl/6qB4esAFxdPdnBGBA",
   },
   {
     id: 14,
     name: "Anders Matsgården",
-    info: "Fika, glass.",
+    info: "Fika",
     artists: [
       {
-        name: "Emmanuelle Strand Jean",
-        medium: "Fil de fer(järntrådsfigurer), målningar, foton",
+        name: "Bengt Kullander",
+        medium:
+          "Snidade sjöfågelvettar och fåglar, akvarell- och akrylmålningar",
       },
-      { name: "Staffan Strand", medium: "Bronsskulpturer" },
+      {
+        name: "Martin Lima de Faria",
+        medium: "Fotokonst med miniatyrer, autogramteckningar och nya verk",
+      },
+      {
+        name: "Emmanuelle Strand Jean",
+        medium: "Foto och järntrådskonst",
+      },
+
       {
         name: "Grävlings Naturprodukter",
         medium: "Naturnära hantverk tillverkat på Gräsö",
@@ -216,85 +205,144 @@ export const Locations: Location[] = [
   {
     id: 15,
     name: "Sjöäng",
+    info: "Ons. och tors. har Café Hidor öppet!",
     artists: [
-      { name: "Kerstin Sjöblom", medium: "Akvarell, akryl, olja" },
-      { name: "Thomas Håkansson", medium: "Fotografier" },
+      { name: "Kerstin Sjöblom", medium: "Akvarell, olja och akryl" },
+      {
+        name: "Kerstin Nord",
+        medium: "Akvareller, handgjorda böcker, konstkort",
+      },
     ],
     location: "https://goo.gl/maps/LiEVQ5TTFabDpBBMA",
+    icons: ["Kaffekopp"],
   },
   {
     id: 16,
-    name: "Norrboda Bygdegård",
-    info: "Fika och smörgåsar. Här finns handikapptoalett",
+    name: "Mats Larsgården Norrboda",
+    artists: [{ name: "Roger Lindvall", medium: "Foto, bildkonst" }],
+    location: "https://maps.app.goo.gl/TQb3GNbTz8sj1FBTA",
+  },
+  {
+    id: 17,
+    name: "Gräsö Bygdegård - Norrboda",
+    info: "Café. Här finns handikapptoalett",
     artists: [
-      { name: "Sonja Lindberg", medium: "Akvarell" },
-      { name: "Anders Keyser", medium: "Naturfoto på stora canvastavlor" },
-      {
-        name: "Monica Ohlsson",
-        medium: "Gott och blandat, personliga fotografier",
-      },
       { name: "Thomas Olofsson", medium: "Knivmakare" },
-      { name: "Irene Wåhlin", medium: "Tavlor/akryl och konsthantverk" },
-      { name: "Eva Rengren", medium: "Stickat;" },
+      { name: "Marie Summerfield", medium: "Smycken" },
+      { name: "Anders Keyser", medium: "Fototavlor på canvas" },
       {
-        name: "Östen Andersson",
-        medium: 'Har sin bok "Det fria folket" till försäljning',
+        name: "Catrin Ormestad",
+        medium: 'Är på plats med sin nya roman "Vargskytten"',
       },
+      {
+        name: "Irene Wåhlin",
+        medium: "Konsthantverk, stentroll, akrylmålning",
+      },
+      { name: "Eva Rengren", medium: "Stickat" },
     ],
     location: "https://goo.gl/maps/NFZZjPXa5Ne9Kh7dA",
     icons: ["Cutlery"],
   },
   {
-    id: 17,
-    name: "Västerhamnen Norrboda",
+    id: 18,
+    name: "Norrboda 78",
+    info: "Fika",
+    artists: [
+      {
+        name: "Matilda Jerre Lingmark",
+        medium: "Målningar",
+      },
+    ],
+    location: "https://maps.app.goo.gl/1McaA5Y3CZXFAx6g9",
+    icons: ["Kaffekopp"],
+  },
+  {
+    id: 19,
+    name: "Norrboda Västerhamn",
+    artists: [
+      {
+        name: "Britt-Marie Jansson",
+        medium: "Måleri, keramik - historiska skeppsbrott utanför Gräsö",
+      },
+      {
+        name: "Cecilia Jansson",
+        medium: "Måleri, keramik - historiska skeppsbrott utanför Gräsö",
+      },
+    ],
+    location: "https://maps.app.goo.gl/C79yY61Ebo8RoMNaA",
+  },
+  {
+    id: 20,
+    name: "Norrboda Västerhamn",
     artists: [
       {
         name: "Elin Lindqvist, Festfint",
-        medium: '"Mina ängder gröna", dukningskonst och blomsterinstallationer',
+        medium: '"Speglingar", dukningskonst och blomsterinstallationer',
       },
     ],
     location: "https://goo.gl/maps/ZPd9SeAAhAbwpW288",
   },
   {
-    id: 18,
-    name: "Norrboda 405 - Runes båtbyggeri",
-    artists: [{ name: "Per Joelsson", medium: "Oljemålningar" }],
+    id: 21,
+    name: "Norrboda 405",
+    artists: [{ name: "Per Joelsson", medium: "Oljemåleri" }],
     location: "https://goo.gl/maps/ZdFmPQTzAu2wGQ6z6",
   },
   {
-    id: 19,
+    id: 22,
+    name: "Norrboda 407",
+    artists: [
+      { name: "Nicolas Brunicardi", medium: "Djurfoto från Roslagen" },
+      { name: "Peter Karbelius", medium: "Älgar och ordkonst" },
+      { name: "Amanda Karbelius Klintfält", medium: "Tatueringskonst" },
+      { name: "Inger Elfström", medium: "Teckning, kroki" },
+    ],
+    location: "https://maps.app.goo.gl/6fviMy5BK6j3eEWN9",
+  },
+  {
+    id: 23,
     name: "Lökäng",
-    info: "Musik måndag, tisdag och fredag klockan 12:30, lördag klockan 12.00",
+    info: "Musik måndag, tisdag, onsdag och lördag från 12.00. Författarträff måndag 8/7 kl. 15:00 tillsammans med Marie Lok Björk - 'Jag vill riva upp himmel och jord', Eleonore Holmgren - 'Hitta hem', Catrin Ormestad - 'Vargskytten'",
     artists: [
       {
-        name: "Eleonore Holmgren Uppsalaförfattare",
+        name: "Hans-Åke Lerin",
         medium:
-          'Pratar om sin nya bok "Arvet efter Britta" måndag 10/7 klockan 15:00',
+          'Fotografier, nyupplaga av boken "De tysta rummen", film "Poetry in motion"',
       },
       {
-        name: "Hans-åke Lerin",
-        medium: 'Fotografier, rörliga bilder, ny fotobok "Bildminnen"',
+        name: "Jon Gerbrand",
+        medium: "Lampor, renoverat, återbruk och nytänk",
+      },
+      { name: "Dennis Persson", medium: "Återbruksskulpturer, målningar" },
+      {
+        name: "Anna Karlsson",
+        medium: "Botaniska tryck på tyg och papper samt fritt broderi",
       },
       { name: "Sanne Vils", medium: "Waldorfdockor, silver, änglar" },
       { name: "Kyll Hellberg", medium: "Waldorfdockor, änglar" },
       {
         name: "Ulla Gerbrand",
-        medium: "Måleri - blandteknik, akryl, olja och grafik",
+        medium: "Måleri - akryl, olja och grafik",
       },
-      {
-        name: "Jon Gerbrand",
-        medium:
-          "Lampor - renoverat, återbruk och nytänk av vackra saker som kastats bort",
-      },
-      { name: "Margit Martens", medium: "Keramik" },
     ],
     location: "https://goo.gl/maps/DJtN7XHNAKJxs4W58",
     icons: ["Guitar"],
   },
   {
-    id: 20,
+    id: 24,
     name: "Ängstorpet Norrboda",
     artists: [{ name: "Roland Kallström", medium: "Konst och hantverk" }],
     location: "https://goo.gl/maps/cfyK2UGcRbymJiFF8",
+  },
+  {
+    id: 25,
+    name: "Båthusviken Källskärsudden",
+    info: "Fika, korv m. bröd",
+    artists: [
+      { name: "Carina Pålgård", medium: "Måleri, färgglädje och inspiration" },
+      { name: "Jenny Dahlkar", medium: "Måleri, färgglädje och inspiration" },
+    ],
+    location: "https://maps.app.goo.gl/frb2i3S3CWYBop5w8",
+    icons: ["Kaffekopp"],
   },
 ];
