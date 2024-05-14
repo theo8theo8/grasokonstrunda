@@ -50,7 +50,10 @@ export const Locations: Location[] = [
         medium: "Textil, plantor och blommor",
       },
       { name: "Meta Fästh Brunnberg", medium: "Linnekläder, accessoarer" },
-      { name: "Tina Lundgren", medium: "Måleri akryl, Vincent Råtta" },
+      {
+        name: "Tina Lundgren",
+        medium: "Måleri akryl, Vincent Råtta, samt nåltovat",
+      },
     ],
     location: "https://goo.gl/maps/uFwPJCk2qUd8vcAT9",
   },
@@ -112,6 +115,10 @@ export const Locations: Location[] = [
         name: "Maria Högström",
         medium: "Oljemålningar, pärlbroderi",
       },
+      {
+        name: "Edvin Molarin",
+        medium: "Illustrationer",
+      },
     ],
     location: "https://maps.app.goo.gl/kMoAYNirKnhHpQfD8",
   },
@@ -160,7 +167,7 @@ export const Locations: Location[] = [
   {
     id: 12,
     name: "Klockarboda",
-    artists: [{ name: "Mika Ljung", medium: "Botaniska illustrationer" }],
+    artists: [{ name: "Mika Ljungh", medium: "Botaniska illustrationer" }],
     location: "https://maps.app.goo.gl/e4rGedkHzjjaBHYt9",
   },
   {
@@ -178,7 +185,6 @@ export const Locations: Location[] = [
   {
     id: 14,
     name: "Anders Matsgården",
-    info: "Fika",
     artists: [
       {
         name: "Bengt Kullander",
@@ -193,14 +199,16 @@ export const Locations: Location[] = [
         name: "Emmanuelle Strand Jean",
         medium: "Foto och järntrådskonst",
       },
-
+      {
+        name: "Staffan Strand",
+        medium: "Skulpturer i brons",
+      },
       {
         name: "Grävlings Naturprodukter",
         medium: "Naturnära hantverk tillverkat på Gräsö",
       },
     ],
     location: "https://goo.gl/maps/LG7KWRDiEGQofrGo8",
-    icons: ["Kaffekopp"],
   },
   {
     id: 15,
@@ -249,8 +257,8 @@ export const Locations: Location[] = [
     info: "Fika",
     artists: [
       {
-        name: "Matilda Jerre Lingmark",
-        medium: "Målningar",
+        name: "Astrid Lakso",
+        medium: "Textil",
       },
     ],
     location: "https://maps.app.goo.gl/1McaA5Y3CZXFAx6g9",
@@ -262,11 +270,11 @@ export const Locations: Location[] = [
     artists: [
       {
         name: "Britt-Marie Jansson",
-        medium: "Måleri, keramik - historiska skeppsbrott utanför Gräsö",
+        medium: "Akvarellmålningar",
       },
       {
         name: "Cecilia Jansson",
-        medium: "Måleri, keramik - historiska skeppsbrott utanför Gräsö",
+        medium: "Keramik, betong, teckningar",
       },
     ],
     location: "https://maps.app.goo.gl/C79yY61Ebo8RoMNaA",
@@ -337,7 +345,7 @@ export const Locations: Location[] = [
   {
     id: 25,
     name: "Båthusviken Källskärsudden",
-    info: "Fika, korv m. bröd",
+    info: "Fika med hembakat och korv med bröd på båthusbryggan.",
     artists: [
       { name: "Carina Pålgård", medium: "Måleri, färgglädje och inspiration" },
       { name: "Jenny Dahlkar", medium: "Måleri, färgglädje och inspiration" },

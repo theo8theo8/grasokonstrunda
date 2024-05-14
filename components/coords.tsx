@@ -94,7 +94,7 @@ export const MAP = {
     },
     {
       id: "14. Anders Matsgården",
-      coords: [681, 2222, 1023, 2369],
+      coords: [745, 2262, 913, 2414],
       shape: "rect",
       fillColor: "#00000000",
       strokeColor: "#00000000",
