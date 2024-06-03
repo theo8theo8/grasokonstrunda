@@ -227,9 +227,9 @@ export const Locations: Location[] = [
   {
     id: 16,
     name: "Mats Larsgården Norrboda",
+    info: "Fika",
     linkInfo: (
       <>
-        <span>Fika. </span>
         <Link isExternal color="secondary" href="https://www.rogerlindvall.se">
           Hemsida!
         </Link>{" "}

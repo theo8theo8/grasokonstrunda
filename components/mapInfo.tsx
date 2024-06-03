@@ -65,11 +65,11 @@ const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
   return (
     <Card className="bg-primary-100 m-2 lg:m-0 md:w-[700px] h-fit md:justify-end">
       <CardHeader className="p-4 lg:p-6 flex-row justify-between items-start">
-        <div className="flex-col max-w-60 lg:max-w-full">
+        <div className=" flex-col max-w-60 lg:max-w-full">
           {location && <CardHeaderContent location={location} />}
         </div>
         {location?.icons && (
-          <div className="flex gap-1 lg:gap-2">
+          <div className="flex-none flex-row flex gap-1 lg:gap-2">
             {location?.icons.map((icon, index) => (
               <Image
                 key={index}
