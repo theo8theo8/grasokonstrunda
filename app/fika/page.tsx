@@ -59,13 +59,14 @@ const cafeInfo = [
   },
   {
     title: "Enklare fika",
-    description: "Åtta utställningsplatser serverar enklare fika.",
+    description: "Nio utställningsplatser serverar enklare fika.",
     imageUrl: "/Kaffekopp.svg",
     content: [
       <p key="fik1">
         Bjurön <b>(3)</b>, Bjurön <b>(4)</b>, Högklyke <b>(5)</b>, Muskaregrund{" "}
-        <b>(6)</b>, Nötsveden IP <b>(9)</b>, Sjöäng <b>(15)</b>, Norrboda 78{" "}
-        <b>(18)</b> samt på plats nummer <b>(25)</b> Båthusviken Källskärsudden.
+        <b>(6)</b>, Nötsveden IP <b>(9)</b>, Sjöäng <b>(15)</b>, Mats Larsgården{" "}
+        <b>(16)</b>, Norrboda 78<b>(18)</b> samt på plats nummer <b>(25)</b>{" "}
+        Båthusviken Källskärsudden.
       </p>,
     ],
   },

@@ -108,7 +108,7 @@ export const MAP = {
     },
     {
       id: "16. Mats Larsgården Norrboda",
-      coords: [926, 1878, 1080, 2031],
+      coords: [926, 1878, 1239, 2029],
       shape: "rect",
       fillColor: "#00000000",
       strokeColor: "#00000000",

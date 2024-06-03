@@ -227,8 +227,19 @@ export const Locations: Location[] = [
   {
     id: 16,
     name: "Mats Larsgården Norrboda",
-    artists: [{ name: "Roger Lindvall", medium: "Foto, bildkonst" }],
+    linkInfo: (
+      <>
+        <span>Fika. </span>
+        <Link isExternal color="secondary" href="https://www.rogerlindvall.se">
+          Hemsida!
+        </Link>{" "}
+      </>
+    ),
+    artists: [
+      { name: "Roger Lindvall", medium: "Landskaps- och naturfoto, konstfoto" },
+    ],
     location: "https://maps.app.goo.gl/TQb3GNbTz8sj1FBTA",
+    icons: ["Kaffekopp"],
   },
   {
     id: 17,
