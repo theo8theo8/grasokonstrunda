@@ -1,4 +1,4 @@
-import { FC, type JSX } from "react";
+import { FC } from "react";
 import { Card, CardHeader, Divider, CardBody, Image } from "@nextui-org/react";
 import { Metadata } from "next";
 

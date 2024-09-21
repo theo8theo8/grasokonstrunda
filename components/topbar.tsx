@@ -16,7 +16,7 @@ const navbarItems = [
 ];
 
 const LogoLink = () => (
-  <Link href="/" className="w-16 sm:w-20 md:w-28" passHref legacyBehavior>
+  <Link href="/" className="w-16 sm:w-20 md:w-28" passHref>
     <Image src="/logo.webp" alt="Gräsö Konstrunda" isBlurred />
   </Link>
 );
@@ -37,7 +37,7 @@ export default function Topbar() {
             <Link
               href={item.href}
               className="text-[10px] sm:text-xs md:text-xl"
-              legacyBehavior>
+            >
               {item.label}
             </Link>
           </NavbarItem>
