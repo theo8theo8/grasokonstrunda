@@ -6,7 +6,7 @@ import {
   CardHeader,
   Divider,
   Link,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Bottombar from "@/components/bottombar";
 export const metadata: Metadata = {
   title: "Gräsö konstrunda - Kontakt",

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Card, CardBody, CardHeader, Divider, Image } from "@nextui-org/react";
+import { Card, CardBody, CardHeader, Divider, Image } from "@heroui/react";
 export const metadata: Metadata = {
   title: "Gräsö konstrunda - Utställare",
 };

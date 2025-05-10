@@ -1,4 +1,4 @@
-import { Image, Link } from "@nextui-org/react";
+import { Image, Link } from "@heroui/react";
 import { FC } from "react";
 
 const SponsorLink: FC<{
@@ -57,7 +57,7 @@ export default function Bottombar() {
           />
         </div>
         <p className="text-[10px] md:text-base">
-          Sidan uppdaterades 2024-05-08
+          Sidan uppdaterades 2025-05-10
         </p>
       </div>
     </div>

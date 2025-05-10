@@ -5,7 +5,7 @@ import {
   CardHeader,
   Divider,
   Image,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Bottombar from "@/components/bottombar";
 
 export default function Home() {
@@ -40,13 +40,13 @@ export default function Home() {
             </p>
             <p className="font-bold">Varmt välkommen till Gräsö konstrunda!</p>
             <p className="font-bold">
-              Kartan är nu uppdaterad med 2024 års platser och konstnärer!
+              Kartan är nu uppdaterad med 2025 års platser och konstnärer!
             </p>
           </CardBody>
           <Divider />
           <CardFooter className="flex flex-col gap-2 md:gap-4 md:mt-2">
             <p className="text-2xl md:text-4xl font-bold">
-              V.28 8-14 juli 2024
+              V.28 7-13 juli 2025
             </p>
             <p className="text-lg md:text-2xl font-bold">
               Kl. 12-17 alla dagar!

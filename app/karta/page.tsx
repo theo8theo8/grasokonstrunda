@@ -1,12 +1,11 @@
 "use client";
-import { Metadata } from "next";
-import ImageMapper, { CustomArea } from "react-img-mapper";
-import { MAP } from "@/components/coords";
+import ImageMapper, { MapArea } from "react-img-mapper";
+import { Locations } from "@/components/locations";
 import { useState } from "react";
 import MapInfo from "@/components/mapInfo";
 
 export default function Home() {
-  const [showInfo, setShowInfo] = useState<CustomArea | undefined>(undefined);
+  const [showInfo, setShowInfo] = useState<MapArea | undefined>(undefined);
   let width = 500;
   if (typeof window !== "undefined") {
     if (window.innerWidth < 426) {
@@ -22,12 +21,19 @@ export default function Home() {
   return (
     <div className="flex flex-col-reverse lg:flex-row md:items-center lg:justify-center md:gap-6 lg:gap-14">
       <ImageMapper
-        responsive={true}
+        src={"/karta_2025.webp"}
+        name={"Karta"}
+        areas={Locations.map((location) => ({
+          id: location.id.toString(),
+          coords: location.coords,
+          shape: "rect",
+          fillColor: "rgba(255, 255, 255, 0.2)",
+        }))}
         parentWidth={width}
         imgWidth={451}
-        src={"/karta_2024.webp"}
+        responsive={true}
         onClick={(area) => setShowInfo(area)}
-        map={MAP}
+        ref={null}
       />
       <MapInfo showInfo={showInfo} />
     </div>

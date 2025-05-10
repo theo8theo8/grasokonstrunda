@@ -11,7 +11,7 @@ import {
   CardBody,
   CardFooter,
   CardHeader,
-} from "@nextui-org/react";
+} from "@heroui/react";
 
 const CardHeaderContent = ({ location }: { location: Location }) => (
   <>
@@ -47,7 +47,7 @@ const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
         <CardFooter className="p-4 lg:p-6">
           <Link
             color="foreground"
-            href="/Flyer_2024.pdf"
+            href="/Flyer_2025.pdf"
             className="gap-2"
             download
           >
@@ -107,7 +107,7 @@ const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
         </Link>
         <Link
           color="foreground"
-          href="/Flyer_2024.pdf"
+          href="/Flyer_2025.pdf"
           className="gap-2"
           download
         >

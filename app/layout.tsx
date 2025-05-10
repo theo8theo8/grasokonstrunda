@@ -5,8 +5,9 @@ import Topbar from "@/components/topbar";
 import "@/styles/globals.css";
 
 const font = Comfortaa({ subsets: ["latin"] });
+
 export const metadata: Metadata = {
-  title: "Gräsö konstrunda 2024",
+  title: "Gräsö konstrunda 2025",
 };
 
 export default function RootLayout({

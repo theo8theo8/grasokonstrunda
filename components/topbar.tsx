@@ -4,7 +4,7 @@ import {
   NavbarContent,
   NavbarItem,
   Image,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Link from "next/link";
 
 const navbarItems = [

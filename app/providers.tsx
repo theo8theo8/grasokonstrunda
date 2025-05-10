@@ -1,8 +1,8 @@
 // app/providers.tsx
 "use client";
 
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  return <NextUIProvider className="h-screen grid">{children}</NextUIProvider>;
+  return <HeroUIProvider className="h-screen grid">{children}</HeroUIProvider>;
 }

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Card, CardHeader, Divider, CardBody, Image } from "@nextui-org/react";
+import { Card, CardHeader, Divider, CardBody, Image } from "@heroui/react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -49,23 +49,27 @@ const cafeInfo = [
     imageUrl: "/Cutlery.svg",
     content: [
       <p key="caf1">
-        Vid Rävsten <b>(1)</b>, här finns lunch och fika.
+        Naturfantastens Gårdsbutik & fik <b>(8)</b>, här finns mackor och fika.
       </p>,
       <p key="caf2">
-        På Gräsö Bygdegård <b>(17)</b> finns ett café med tillgång till
+        På Gräsö Bygdegård <b>(18)</b> finns ett café med tillgång till
         handikapptoalett.
+      </p>,
+      <p key="caf3">
+        Örskärs fyrplats <b>(22)</b>, här finns café som även serverar
+        skärgårdslunch. Obs, mat behöver förbokas.
       </p>,
     ],
   },
   {
     title: "Enklare fika",
-    description: "Nio utställningsplatser serverar enklare fika.",
+    description: "Åtta utställningsplatser serverar enklare fika.",
     imageUrl: "/Kaffekopp.svg",
     content: [
       <p key="fik1">
-        Bjurön <b>(3)</b>, Bjurön <b>(4)</b>, Högklyke <b>(5)</b>, Muskaregrund{" "}
-        <b>(6)</b>, Nötsveden IP <b>(9)</b>, Sjöäng <b>(15)</b>, Mats Larsgården{" "}
-        <b>(16)</b>, Norrboda 78<b>(18)</b> samt på plats nummer <b>(25)</b>{" "}
+        Bjurön <b>(2)</b>, Bjurön <b>(3)</b>, Muskargrund <b>(5)</b>, Nötsveden
+        IP <b>(6)</b>, Östermörtarö <b>(14)</b>, Sjöäng <b>(16)</b> (tors. och
+        fre.), MasLarsgården <b>(17)</b> samt på plats nummer <b>(21)</b>{" "}
         Båthusviken Källskärsudden.
       </p>,
     ],
@@ -76,11 +80,11 @@ const cafeInfo = [
     imageUrl: "/Guitar.svg",
     content: [
       <p key="mus1">
-        Musik dyker upp när man minst anar det vid Nötsvedens IP <b>(9)</b>.
+        Musik dyker upp när man minst anar det vid Nötsvedens IP <b>(6)</b>.
       </p>,
       <p key="mus2">
-        Musik spelas även i Lökäng <b>(23)</b> måndag, tisdag, onsdag och lördag
-        från 12.00.
+        Musik spelas även på Lökäng <b>(20)</b> måndag, tisdag, onsdag och
+        lördag från 12.00.
       </p>,
     ],
   },
