@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="flex flex-col-reverse lg:flex-row md:items-center lg:justify-center md:gap-6 lg:gap-14">
       <ImageMapper
-        src={"/karta_2025.webp"}
+        src={"/Karta_2025.webp"}
         name={"Karta"}
         areas={Locations.map((location) => ({
           id: location.id.toString(),
