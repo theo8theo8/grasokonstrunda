@@ -1,11 +1,12 @@
 import { Link } from "@heroui/react";
+import { ReactNode } from "react";
 
 export interface Location {
   id: number;
   name: string;
   coords: number[];
   info?: string;
-  linkInfo?: JSX.Element;
+  linkInfo?: ReactNode;
   artists: Artist[];
   location: string;
   icons?: string[];

@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 import { Card, CardHeader, Divider, CardBody, Image } from "@heroui/react";
 import { Metadata } from "next";
 
@@ -10,7 +10,7 @@ interface CafeCardProps {
   title: string;
   description: string;
   imageUrl: string;
-  content: JSX.Element[];
+  content: ReactNode[];
 }
 
 const CafeCard: FC<CafeCardProps> = ({

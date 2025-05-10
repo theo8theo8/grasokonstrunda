@@ -2,7 +2,7 @@ import React from "react";
 import { Locations, Location } from "./locations";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { CustomArea } from "react-img-mapper";
+import { MapArea } from "react-img-mapper";
 import {
   Card,
   Divider,
@@ -34,7 +34,7 @@ const CardFooterContent = () => (
   </>
 );
 
-const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
+const MapInfo = ({ showInfo }: { showInfo: MapArea | undefined }) => {
   if (!showInfo) {
     return (
       <Card className="bg-primary-100 m-2 lg:m-0 lg:w-[700px] h-fit">
@@ -59,7 +59,7 @@ const MapInfo = ({ showInfo }: { showInfo: CustomArea | undefined }) => {
   }
 
   const location = Locations.find(
-    (loc) => loc.id === parseInt(showInfo?.id?.split(".")[0] ?? "", 10)
+    (loc) => loc.id === parseInt(showInfo?.id ?? "", 10)
   );
 
   return (
