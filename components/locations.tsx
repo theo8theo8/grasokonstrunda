@@ -197,7 +197,7 @@ export const Locations: Location[] = [
   {
     id: 14,
     name: "Östermörtarö",
-    coords: [2541, 5351, 2873, 5654],
+    coords: [2541, 5351, 3176, 5654],
     info: "Fika",
     artists: [
       { name: "Helén Rutegård", medium: "Dubbelvävda trasmattor" },
