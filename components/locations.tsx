@@ -119,7 +119,7 @@ export const Locations: Location[] = [
   },
   {
     id: 8,
-    name: "Västerbyn - Naturfantastens gårdsbutik & fik",
+    name: "Västerbyn 74 - Naturfantastens gårdsbutik & fik",
     coords: [2372, 8293, 2910, 8579],
     info: "Gårdsbutik och fik",
     artists: [
@@ -129,11 +129,11 @@ export const Locations: Location[] = [
       },
       {
         name: "Jenny Nyberg",
-        medium: "Foton, konst, hantverk",
+        medium: "Konst, hantverk",
       },
     ],
     location: "https://maps.app.goo.gl/XDohjQVg4piocgfe8",
-    icons: ["Cutlery"],
+    icons: ["Kaffekopp"],
   },
   {
     id: 9,
@@ -185,11 +185,17 @@ export const Locations: Location[] = [
     id: 13,
     name: "Studio 838 Rosendal",
     coords: [1475, 5157, 1778, 5461],
+    info: "'The Flow' visas enbart mellan 16-17 mån, ons, fre och sön.",
     artists: [
       {
         name: "Martin Lima de Faria",
         medium:
-          "AI-visualiseringen 'The Flow', teckningar och fotokonst med mini",
+          "Fotokonst med miniatyrer, teckningar och AI-visualiseringen 'The Flow'.",
+      },
+      {
+        name: "Maud Karlsson Lima de Faria",
+        medium:
+          "'Den nakna sanningen' - fotografier av kvinnor drabbade av bröstcancer",
       },
     ],
     location: "https://maps.app.goo.gl/KFqaESrzqBBKQBKA7",
@@ -219,7 +225,11 @@ export const Locations: Location[] = [
       },
       {
         name: "Emmanuelle Strand Jean",
-        medium: "Järntrådskonst och fotografier",
+        medium: "Järntrådskonst, måleri och fotografi",
+      },
+      {
+        name: "Staffan Strand",
+        medium: "Skulpturer i brons",
       },
       {
         name: "Bengt Kullander",
@@ -246,8 +256,15 @@ export const Locations: Location[] = [
     name: "MasLarsgården",
     coords: [1853, 3755, 2478, 4058],
     info: "Gratis fika",
+    linkInfo: (
+      <>
+        <Link isExternal color="secondary" href="https://www.rogerlindvall.se">
+          Hemsida!
+        </Link>{" "}
+      </>
+    ),
     artists: [
-      { name: "Roger Lindvall", medium: "Fotokonst" },
+      { name: "Roger Lindvall", medium: "Landskaps- och naturfoto. Fotokonst" },
       { name: "Cecilia Granberg", medium: "Keramik" },
     ],
     location: "https://maps.app.goo.gl/TQb3GNbTz8sj1FBTA",
@@ -283,7 +300,7 @@ export const Locations: Location[] = [
     artists: [
       {
         name: "Britt-Marie Jansson",
-        medium: "Akvarell, måleri, foto / Jansson på Gräsö",
+        medium: "Jansson på Gräsö / Akvarell och växtfärgat sidentyg",
       },
     ],
     location: "https://maps.app.goo.gl/C79yY61Ebo8RoMNaA",
@@ -292,7 +309,7 @@ export const Locations: Location[] = [
     id: 20,
     name: "Lökäng",
     coords: [1061, 2784, 1663, 3082],
-    info: "Musik: måndag, tisdag, onsdag och lördag från 12.00. Författarträff måndag 7/7 kl. 15:00 med Ingrid Hedström som berättar om sin bok 'Gick obemärkt förbi'",
+    info: "Musik: måndag, tisdag, onsdag, torsdag och lördag från 12.00. Författarträff måndag 7/7 kl. 15:00 med Ingrid Hedström som berättar om sin bok 'Gick obemärkt förbi'",
     artists: [
       {
         name: "Hans-Åke Lerin",
@@ -300,7 +317,7 @@ export const Locations: Location[] = [
       },
       {
         name: "Ulla Gerbrand",
-        medium: "Målningar",
+        medium: "Måleri, akryl, olja",
       },
       { name: "Kyll Hellberg", medium: "Waldorfdockor, änglar" },
       {
