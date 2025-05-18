@@ -49,13 +49,10 @@ const cafeInfo = [
     imageUrl: "/Cutlery.svg",
     content: [
       <p key="caf1">
-        Naturfantastens Gårdsbutik & fik <b>(8)</b>, här finns mackor och fika.
-      </p>,
-      <p key="caf2">
         På Gräsö Bygdegård <b>(18)</b> finns ett café med tillgång till
         handikapptoalett.
       </p>,
-      <p key="caf3">
+      <p key="caf2">
         Örskärs fyrplats <b>(22)</b>, här finns café som även serverar
         skärgårdslunch. Obs, mat behöver förbokas.
       </p>,
@@ -63,14 +60,14 @@ const cafeInfo = [
   },
   {
     title: "Enklare fika",
-    description: "Åtta utställningsplatser serverar enklare fika.",
+    description: "Nio utställningsplatser serverar enklare fika.",
     imageUrl: "/Kaffekopp.svg",
     content: [
       <p key="fik1">
         Bjurön <b>(2)</b>, Bjurön <b>(3)</b>, Muskargrund <b>(5)</b>, Nötsveden
-        IP <b>(6)</b>, Östermörtarö <b>(14)</b>, Sjöäng <b>(16)</b> (tors. och
-        fre.), MasLarsgården <b>(17)</b> samt på plats nummer <b>(21)</b>{" "}
-        Båthusviken Källskärsudden.
+        IP <b>(6)</b>, Naturfantastens Gårdsbutik & fik <b>(8)</b>, Östermörtarö{" "}
+        <b>(14)</b>, Sjöäng <b>(16)</b> (tors. och fre.), MasLarsgården{" "}
+        <b>(17)</b> samt på plats nummer <b>(21)</b> Båthusviken Källskärsudden.
       </p>,
     ],
   },
@@ -83,8 +80,8 @@ const cafeInfo = [
         Musik dyker upp när man minst anar det vid Nötsvedens IP <b>(6)</b>.
       </p>,
       <p key="mus2">
-        Musik spelas även på Lökäng <b>(20)</b> måndag, tisdag, onsdag och
-        lördag från 12.00.
+        Musik spelas även på Lökäng <b>(20)</b> måndag, tisdag, onsdag, torsdag
+        och lördag från 12.00.
       </p>,
     ],
   },
