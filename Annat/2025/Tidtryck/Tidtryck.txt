@@ -1,17 +1,37 @@
 Tidtryck
 
-Stora
-X - Xst
 
+stora+små
 
+1 - 0   5
+2 - 1	8
+3 - 2	5
+4 - 2	8
+5 - 2  	8
 
-Små
-X - Xst
+1-5	1
+6-22 	1
 
+6+7 - 2 
+6 - 2	5
+7 - 2	5
+8 - 2	5
+9 - 2	8
+10 - 2	1
+11 - 2	1
+12 - 2	1
+13+14	2
+13 - 0	8
+14 - 1	8
+15 - 2
+16 - 2	8
+17 - 2	8
+18 - 2
+19 - 1	5
+20 - 1	5
+21 - 1	8
+22 - 0	8
 
-nbv a4 - Xst
-
-
-A3-affisch X st
-A4-affisch X st
-A5-flyers X st
+A3-affisch	5st
+A4		50st
+A5		1000st
