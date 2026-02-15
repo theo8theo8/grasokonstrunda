@@ -1,17 +1,9 @@
-import React from "react";
-import { Locations, Location } from "./locations";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { Card, CardBody, CardFooter, CardHeader } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Image } from "@heroui/image";
+import { Link } from "@heroui/link";
 import { MapArea } from "react-img-mapper";
-import {
-  Card,
-  Divider,
-  Link,
-  Image,
-  CardBody,
-  CardFooter,
-  CardHeader,
-} from "@heroui/react";
+import { Location, Locations } from "./locations";
 
 const CardHeaderContent = ({ location }: { location: Location }) => (
   <>
@@ -29,15 +21,40 @@ const CardHeaderContent = ({ location }: { location: Location }) => (
 
 const CardFooterContent = () => (
   <>
-    <FontAwesomeIcon icon={faFileArrowDown} className="text-xl lg:text-2xl" />
-    <p className="text-sm lg:text-base">Ladda ned en pdf av kartan!</p>
+    <svg
+      className="text-xl lg:text-2xl"
+      viewBox="0 0 24 24"
+      role="img"
+      aria-hidden="true"
+      width="1em"
+      height="1em"
+      fill="currentColor"
+    >
+      <path d="M12 3a1 1 0 0 1 1 1v9.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4.01 4.01a1 1 0 0 1-1.4 0l-4.01-4.01a1 1 0 1 1 1.4-1.42L11 13.59V4a1 1 0 0 1 1-1ZM5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z" />
+    </svg>
+    <p className="text-sm lg:text-base">Ladda ned kartan!</p>
   </>
 );
 
-const MapInfo = ({ showInfo }: { showInfo: MapArea | undefined }) => {
+type MapInfoProps = {
+  showInfo: MapArea | undefined;
+  className?: string;
+};
+
+const MapInfo = ({ showInfo, className }: MapInfoProps) => {
+  const emptyCardBase = "bg-primary-100 m-2 lg:m-0 lg:w-[700px] h-fit";
+  const infoCardBase =
+    "bg-primary-100 m-2 lg:m-0 md:w-[700px] h-fit md:justify-end";
+  const emptyCardClassName = className
+    ? `${emptyCardBase} ${className}`
+    : emptyCardBase;
+  const infoCardClassName = className
+    ? `${infoCardBase} ${className}`
+    : infoCardBase;
+
   if (!showInfo) {
     return (
-      <Card className="bg-primary-100 m-2 lg:m-0 lg:w-[700px] h-fit">
+      <Card className={emptyCardClassName}>
         <CardBody className="p-4 lg:p-6">
           <p className="font-bold text-base lg:text-xl">
             Klicka på en av siffrorna för att se mer information!
@@ -63,7 +80,7 @@ const MapInfo = ({ showInfo }: { showInfo: MapArea | undefined }) => {
   );
 
   return (
-    <Card className="bg-primary-100 m-2 lg:m-0 md:w-[700px] h-fit md:justify-end">
+    <Card className={infoCardClassName}>
       <CardHeader className="p-4 lg:p-6 flex-row justify-between items-start">
         <div className=" flex-col max-w-60 lg:max-w-full">
           {location && <CardHeaderContent location={location} />}

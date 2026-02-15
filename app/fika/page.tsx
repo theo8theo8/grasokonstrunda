@@ -1,6 +1,8 @@
-import { FC, ReactNode } from "react";
-import { Card, CardHeader, Divider, CardBody, Image } from "@heroui/react";
 import { Metadata } from "next";
+import { Card, CardBody, CardHeader } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Image } from "@heroui/image";
+import { FC, ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "Gräsö konstrunda - Fika",

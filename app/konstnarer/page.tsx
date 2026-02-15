@@ -1,9 +1,12 @@
 import { Metadata } from "next";
-import { Card, CardBody, CardHeader, Divider, Image } from "@heroui/react";
+import { Locations } from "@/components/locations";
+import { Card, CardBody, CardHeader } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Image } from "@heroui/image";
+
 export const metadata: Metadata = {
   title: "Gräsö konstrunda - Utställare",
 };
-import { Locations } from "@/components/locations";
 
 export default function Home() {
   return (

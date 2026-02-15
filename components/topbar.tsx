@@ -1,11 +1,11 @@
+import Link from "next/link";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Image,
-} from "@heroui/react";
-import Link from "next/link";
+} from "@heroui/navbar";
+import { Image } from "@heroui/image";
 
 const navbarItems = [
   { href: "/", label: "START" },

@@ -1,4 +1,5 @@
-import { Image, Link } from "@heroui/react";
+import { Image } from "@heroui/image";
+import { Link } from "@heroui/link";
 import { FC } from "react";
 
 const SponsorLink: FC<{

@@ -1,13 +1,9 @@
 import { Metadata } from "next";
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  Divider,
-  Link,
-} from "@heroui/react";
 import Bottombar from "@/components/bottombar";
+import { Card, CardBody, CardFooter, CardHeader } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Link } from "@heroui/link";
+
 export const metadata: Metadata = {
   title: "Gräsö konstrunda - Kontakt",
 };

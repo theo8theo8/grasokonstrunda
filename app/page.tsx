@@ -1,12 +1,7 @@
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  Divider,
-  Image,
-} from "@heroui/react";
 import Bottombar from "@/components/bottombar";
+import { Card, CardBody, CardFooter, CardHeader } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Image } from "@heroui/image";
 
 export default function Home() {
   return (
@@ -40,13 +35,13 @@ export default function Home() {
             </p>
             <p className="font-bold">Varmt välkommen till Gräsö konstrunda!</p>
             <p className="font-bold">
-              Kartan är nu uppdaterad med 2025 års platser och konstnärer!
+              Kartan är ännu inte uppdaterad med 2026 års platser och konstnärer!
             </p>
           </CardBody>
           <Divider />
           <CardFooter className="flex flex-col gap-2 md:gap-4 md:mt-2">
             <p className="text-2xl md:text-4xl font-bold">
-              V.28 7-13 juli 2025
+              V.28 6-12 juli 2026
             </p>
             <p className="text-lg md:text-2xl font-bold">
               Kl. 12-17 alla dagar!

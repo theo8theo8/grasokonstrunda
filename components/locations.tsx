@@ -1,4 +1,4 @@
-import { Link } from "@heroui/react";
+import { Link } from "@heroui/link";
 import { ReactNode } from "react";
 
 export interface Location {
