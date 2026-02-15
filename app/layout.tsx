@@ -2,6 +2,7 @@ import { Comfortaa } from "next/font/google";
 import { Metadata } from "next";
 import { Providers } from "./providers";
 import Topbar from "@/components/topbar";
+import "@/styles/globals.css";
 
 const font = Comfortaa({ subsets: ["latin"] });
 
