@@ -90,7 +90,7 @@ export default function Home() {
                 setShowInfo(undefined);
                 setShowTutorial(false);
               }}
-              className="absolute right-2 top-2 z-10 rounded-full bg-white/90 px-3 py-1 text-lg font-bold text-black shadow"
+              className="absolute right-2 top-2 z-50 rounded-full bg-white/90 px-3 py-1 text-lg font-bold text-black shadow hover:bg-white cursor-pointer pointer-events-auto"
             >
               &times;
             </button>
