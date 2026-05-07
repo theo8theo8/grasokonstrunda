@@ -7,7 +7,7 @@ import "@/styles/globals.css";
 const font = Comfortaa({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gräsö konstrunda 2025",
+  title: "Gräsö konstrunda 2026",
 };
 
 export default function RootLayout({

@@ -50,7 +50,7 @@ export default function Home() {
       <div className="w-full lg:w-[420px] xl:w-[450px] 2xl:w-[500px]">
         <div ref={mapContainerRef} className="w-full">
           <ImageMapper
-            src={"/Karta_2025.webp"}
+            src={"/Karta_2026.webp"}
             name={"Karta"}
             areas={Locations.map((location) => ({
               id: location.id.toString(),
@@ -103,7 +103,7 @@ export default function Home() {
                 </p>
                 <Link
                   color="foreground"
-                  href="/Flyer_2025.pdf"
+                  href="/Flyer_2026.pdf"
                   className="mt-3 inline-flex items-center gap-2 text-sm"
                   download
                 >

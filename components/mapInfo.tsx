@@ -64,7 +64,7 @@ const MapInfo = ({ showInfo, className }: MapInfoProps) => {
         <CardFooter className="p-4 lg:p-6">
           <Link
             color="foreground"
-            href="/Flyer_2025.pdf"
+            href="/Flyer_2026.pdf"
             className="gap-2"
             download
           >
@@ -124,7 +124,7 @@ const MapInfo = ({ showInfo, className }: MapInfoProps) => {
         </Link>
         <Link
           color="foreground"
-          href="/Flyer_2025.pdf"
+          href="/Flyer_2026.pdf"
           className="gap-2"
           download
         >
