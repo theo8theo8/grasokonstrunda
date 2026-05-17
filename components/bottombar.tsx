@@ -58,7 +58,7 @@ export default function Bottombar() {
           />
         </div>
         <p className="text-[10px] md:text-base">
-          Sidan uppdaterades 2026-05-07
+          Sidan uppdaterades 2026-05-17
         </p>
       </div>
     </div>
