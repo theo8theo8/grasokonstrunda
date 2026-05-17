@@ -67,7 +67,7 @@ export const Locations: Location[] = [
     artists: [
       {
         name: "Elisabeth Lundgren",
-        medium: "Fotografier av fåglar och landskap",
+        medium: "Ögonblick med fåglar, fotografier av fåglar och landskap",
       },
     ],
     location: "https://goo.gl/maps/cbMrTjxfyKzteXUc6",
@@ -109,11 +109,15 @@ export const Locations: Location[] = [
       { name: "Eva Andersson", medium: "Stickat, tovat/valkat" },
       {
         name: "Meta Fästh Brunnberg",
-        medium: "Kläder i linne, smycken",
+        medium: "Linnekläder - återbruk, stensmycken",
       },
       {
         name: "Ellinor Nordensten",
         medium: "Foto",
+      },
+      {
+        name: "Johan Brodin",
+        medium: "Målar blandade motiv i akryl",
       },
     ],
     location: "https://maps.app.goo.gl/XDohjQVg4piocgfe8",
@@ -161,10 +165,10 @@ export const Locations: Location[] = [
   },
   {
     id: 12,
-    name: "Östermörtarö",
+    name: "Östermörtarö - vid 'Blomsterängen'",
     coords: [2724, 5351, 3030, 5654],
     artists: [
-      { name: "Helén Rutegård", medium: "Dubbelvävda trasmattor" },
+      { name: "Helén Rutegård", medium: "Dubbelvävda trasmattor i Twist med Panamasolving" },
     ],
     location: "https://maps.app.goo.gl/gqP6RuP7LNyE1tWu5",
   },
@@ -180,6 +184,10 @@ export const Locations: Location[] = [
       {
         name: "Emmanuelle Strand Jean",
         medium: "Måleri, fotografi, järntrådskonst",
+      },
+      {
+        name: "Staffan Strand",
+        medium: "Skulpturer i brons",
       },
       {
         name: "Louise Westerberg",
@@ -201,7 +209,7 @@ export const Locations: Location[] = [
     id: 15,
     name: "MasLarsgården",
     coords: [1853, 3755, 2478, 4058],
-    info: "Gratis fika, porträttfotografering i studio på plats och papegojor",
+    info: "Smashed burgers och gratis fika, porträttfotografering i studio på plats och papegojor",
     linkInfo: (
       <>
         <Link isExternal color="secondary" href="https://www.rogerlindvall.se">
@@ -212,7 +220,7 @@ export const Locations: Location[] = [
     artists: [
       { name: "Rune Eklund", medium: "Knep och knåp pussel för barn och vuxna" },
       { name: "Cecilia Granberg", medium: "Keramik" },
-      { name: "Roger Lindvall", medium: "Fotokonst, silversmide" },
+      { name: "Roger Lindvall", medium: "Fotokonst, silversmide och amigurumi-dockor" },
     ],
     location: "https://maps.app.goo.gl/TQb3GNbTz8sj1FBTA",
     icons: ["Kaffekopp"],
@@ -254,7 +262,7 @@ export const Locations: Location[] = [
     id: 18,
     name: "Lökäng",
     coords: [1061, 2779, 1663, 3082],
-    info: "Musik: måndag, tisdag, onsdag, lördag från 12.00. Författarträff måndag 6/7 kl. 15:00 med Ellinore Holmgren - pratar om sin nya bok 'Om morgondagen vet vi ingenting', Mari Lok Björk - pratar om sin bok 'Att välja ett liv', Catrin Ormestad - presenterar sin kommande bok 'Fyren vid havets slut' som utspelar sig på Örskär",
+    info: "Musik: måndag, tisdag, onsdag, torsdag och lördag från 12.00. Författarträff måndag 6/7 kl. 15:00 med Eleonore Holmgren - pratar om sin nya bok 'Om morgondagen vet vi ingenting', Mari Lok Björk - pratar om sin bok 'Att välja ett liv', Catrin Ormestad - presenterar sin kommande bok 'Fyren vid havets slut' som utspelar sig på Örskär",
     artists: [
       {
         name: "Hans-Åke Lerin",
@@ -268,11 +276,11 @@ export const Locations: Location[] = [
       { name: "Sanne Vils", medium: "Silversmycken, waldorfdockor" },
       {
         name: "Anna Karlsson",
-        medium: "Handstickade tröjor typ islandströjor, handbundna böcker med botaniska tryck",
+        medium: "Handstickade tröjor typ islandströjor, handbundna böcker med botaniska tryck, kollage av botaniska tryck",
       },
       {
         name: "Ulla Gerbrand",
-        medium: "Måleri, akryl, olja",
+        medium: "Måleri, akryl, olja och lite grafik",
       },   
       { name: "Dennis Persson", medium: "Bevingade skulpturer, målningar" },
     ],

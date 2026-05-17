@@ -77,7 +77,7 @@ const cafeInfo = [
         Fiolspel med skärgårdsvalser klockan 15:00 vid Norrboda Västerhamn <b>(17)</b>.
       </p>,
       <p key="mus2">
-        Musik spelas även på Lökäng <b>(18)</b> måndag, tisdag, onsdag och lördag från 12.00.
+        Musik spelas även på Lökäng <b>(18)</b> måndag, tisdag, onsdag, torsdag och lördag från 12.00.
       </p>,
     ],
   },
