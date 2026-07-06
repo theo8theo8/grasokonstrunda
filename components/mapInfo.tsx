@@ -2,7 +2,6 @@ import { Card, CardBody, CardFooter, CardHeader } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
-import { MapArea } from "react-img-mapper";
 import { Location, Locations } from "./locations";
 
 const CardHeaderContent = ({ location }: { location: Location }) => (
@@ -37,7 +36,7 @@ const CardFooterContent = () => (
 );
 
 type MapInfoProps = {
-  showInfo: MapArea | undefined;
+  showInfo: number | undefined;
   className?: string;
 };
 
@@ -75,9 +74,7 @@ const MapInfo = ({ showInfo, className }: MapInfoProps) => {
     );
   }
 
-  const location = Locations.find(
-    (loc) => loc.id === parseInt(showInfo?.id ?? "", 10)
-  );
+  const location = Locations.find((loc) => loc.id === showInfo);
 
   return (
     <Card className={infoCardClassName}>

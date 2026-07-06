@@ -1,42 +1,43 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "@heroui/link";
-import ImageMapper, { MapArea } from "react-img-mapper";
 import MapInfo from "@/components/mapInfo";
 import { Locations } from "@/components/locations";
+import mapImageSrc from "./mapImage";
+
+const MAP_BASE_WIDTH = 6722;
+const MAP_BASE_HEIGHT = 11547;
 
 export default function Home() {
-  const [showInfo, setShowInfo] = useState<MapArea | undefined>(undefined);
+  const [showInfo, setShowInfo] = useState<number | undefined>(undefined);
   const [showTutorial, setShowTutorial] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const mapContainerRef = useRef<HTMLDivElement | null>(null);
-  const [mapWidth, setMapWidth] = useState(0);
+
+  const hotspots = useMemo(
+    () =>
+      Locations.map((location) => {
+        const [x1, y1, x2, y2] = location.coords;
+        const left = Math.min(x1, x2);
+        const top = Math.min(y1, y2);
+        const right = Math.max(x1, x2);
+        const bottom = Math.max(y1, y2);
+
+        return {
+          id: location.id,
+          label: location.id.toString(),
+          left,
+          top,
+          width: right - left,
+          height: bottom - top,
+        };
+      }),
+    []
+  );
 
   useEffect(() => {
-    const container = mapContainerRef.current;
-    if (!container) {
-      return;
-    }
-
-    const observer = new ResizeObserver((entries) => {
-      const nextWidth = Math.floor(entries[0]?.contentRect.width ?? 0);
-      if (nextWidth > 0) {
-        setMapWidth((current) => (current === nextWidth ? current : nextWidth));
-      }
-    });
-
-    observer.observe(container);
-    return () => observer.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-
     const media = window.matchMedia("(max-width: 1023px)");
     const updateMedia = () => {
-      setIsMobile(media.matches);
+      setIsMobile((current) => (current === media.matches ? current : media.matches));
       setShowTutorial(media.matches);
     };
 
@@ -48,22 +49,40 @@ export default function Home() {
   return (
     <div className="flex flex-col lg:flex-row md:items-center lg:justify-center md:gap-6 lg:gap-14 px-3 sm:px-4 lg:px-0">
       <div className="w-full lg:w-[420px] xl:w-[450px] 2xl:w-[500px]">
-        <div ref={mapContainerRef} className="w-full">
-          <ImageMapper
-            src={"/Karta_2026.webp"}
-            name={"Karta"}
-            areas={Locations.map((location) => ({
-              id: location.id.toString(),
-              coords: location.coords,
-              shape: "rect",
-              fillColor: "rgba(255, 255, 255, 0.2)",
-            }))}
-            parentWidth={mapWidth > 0 ? mapWidth : 320}
-            imgWidth={451}
-            responsive={true}
-            onClick={(area) => setShowInfo(area)}
-            ref={null}
+        <div className="relative w-full overflow-hidden rounded-2xl">
+          <img
+            src={mapImageSrc}
+            alt="Karta över Gräsö konstrunda"
+            className="block h-auto w-full select-none"
+            draggable={false}
+            loading="eager"
           />
+          <div className="absolute inset-0">
+            {hotspots.map((hotspot) => {
+              const left = (hotspot.left / MAP_BASE_WIDTH) * 100;
+              const top = (hotspot.top / MAP_BASE_HEIGHT) * 100;
+              const width = (hotspot.width / MAP_BASE_WIDTH) * 100;
+              const height = (hotspot.height / MAP_BASE_HEIGHT) * 100;
+
+              return (
+                <button
+                  key={hotspot.id}
+                  type="button"
+                  aria-label={`Visa information om plats ${hotspot.label}`}
+                  onClick={() => setShowInfo(hotspot.id)}
+                  className="absolute rounded-md p-0 m-0 bg-transparent border-0 text-transparent transition-colors duration-150 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/60"
+                  style={{
+                    left: `${left}%`,
+                    top: `${top}%`,
+                    width: `${width}%`,
+                    height: `${height}%`,
+                  }}
+                >
+                  <span className="sr-only">{hotspot.label}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div className="hidden lg:block">
